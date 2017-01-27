@@ -10,11 +10,11 @@ SetCompressor /SOLID lzma
 !define URL https://bitcoincore.org/
 
 # MUI Symbol Definitions
-!define MUI_ICON "/home/kzv/e51/share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/kzv/e51/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/home/kzv/SmailCoin/share/pixmaps/bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/kzv/SmailCoin/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/home/kzv/e51/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/home/kzv/SmailCoin/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
@@ -22,7 +22,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "Bitcoin Core"
 !define MUI_FINISHPAGE_RUN $INSTDIR\bitcoin-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/kzv/e51/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/kzv/SmailCoin/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -48,7 +48,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /home/kzv/e51/bitcoin-${VERSION}-win-setup.exe
+OutFile /home/kzv/SmailCoin/bitcoin-${VERSION}-win-setup.exe
 !if "" == "64"
 InstallDir $PROGRAMFILES64\Bitcoin
 !else
@@ -73,14 +73,14 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /home/kzv/e51/release/bitcoin-qt.exe
-    File /oname=COPYING.txt /home/kzv/e51/COPYING
-    File /oname=readme.txt /home/kzv/e51/doc/README_windows.txt
+    File /home/kzv/SmailCoin/release/bitcoin-qt.exe
+    File /oname=COPYING.txt /home/kzv/SmailCoin/COPYING
+    File /oname=readme.txt /home/kzv/SmailCoin/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /home/kzv/e51/release/bitcoind.exe
-    File /home/kzv/e51/release/bitcoin-cli.exe
+    File /home/kzv/SmailCoin/release/bitcoind.exe
+    File /home/kzv/SmailCoin/release/bitcoin-cli.exe
     SetOutPath $INSTDIR\doc
-    File /r /home/kzv/e51/doc\*.*
+    File /r /home/kzv/SmailCoin/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
