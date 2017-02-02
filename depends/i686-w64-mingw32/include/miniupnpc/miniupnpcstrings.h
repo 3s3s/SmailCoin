@@ -9,7 +9,7 @@
 #define MINIUPNPCSTRINGS_H_INCLUDED
 
 #define OS_STRING "i686-w64-mingw32"
-#define MINIUPNPC_VERSION_STRING "1.9.20151026"
+#define MINIUPNPC_VERSION_STRING "2.0"
 
 #if 0
 /* according to "UPnP Device Architecture 1.0" */

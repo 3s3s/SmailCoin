@@ -2,12 +2,12 @@
 .\"     Title: ccache
 .\"    Author: [see the "Author" section]
 .\" Generator: DocBook XSL Stylesheets v1.78.1 <http://docbook.sf.net/>
-.\"      Date: 10/08/2015
+.\"      Date: 04/17/2016
 .\"    Manual: ccache Manual
-.\"    Source: ccache 3.2.4
+.\"    Source: ccache 3.2.5
 .\"  Language: English
 .\"
-.TH "CCACHE" "1" "10/08/2015" "ccache 3\&.2\&.4" "ccache Manual"
+.TH "CCACHE" "1" "04/17/2016" "ccache 3\&.2\&.5" "ccache Manual"
 .\" -----------------------------------------------------------------
 .\" * Define some portability stuff
 .\" -----------------------------------------------------------------
@@ -351,7 +351,7 @@ max_size = 10G
 Some settings are boolean values (i\&.e\&. truth values)\&. In a configuration file, such values must be set to the string \fBtrue\fR or \fBfalse\fR\&. For the corresponding environment variables, the semantics are a bit different: a set environment variable means \(lqtrue\(rq regardless of the value (even if set to the empty string), and an unset environment variable means \(lqfalse\(rq\&. Each boolean environment variable also has a negated form starting with \fBCCACHE_NO\fR\&. For example, \fBCCACHE_COMPRESS\fR can be set to force compression and \fBCCACHE_NOCOMPRESS\fR can be set to force no compression\&.
 .SS "Configuration settings"
 .sp
-Below is a list of available configuration settings\&. The corresponding environment variable name is indicated in parentheses after each configuration setting key\&. Boolean options are indicated with \(lq[boolean]\(rq
+Below is a list of available configuration settings\&. The corresponding environment variable name is indicated in parentheses after each configuration setting key\&.
 .PP
 \fBbase_dir\fR (\fBCCACHE_BASEDIR\fR)
 .RS 4
@@ -448,7 +448,7 @@ USING CCACHE WITH OTHER COMPILER WRAPPERS\&.
 .RE
 .RE
 .PP
-\fBcompression\fR (\fBCCACHE_COMPRESS\fR) [boolean]
+\fBcompression\fR (\fBCCACHE_COMPRESS\fR or \fBCCACHE_NOCOMPRESS\fR, see Boolean values above)
 .RS 4
 If true, ccache will compress object files and other compiler output it puts in the cache\&. However, this setting has no effect on how files are retrieved from the cache; compressed and uncompressed results will still be usable regardless of this setting\&. The default is false\&.
 .RE
@@ -466,13 +466,13 @@ This setting can be used to force a certain extension for the intermediate prepr
 \fBi\fR\&.
 .RE
 .PP
-\fBdirect_mode\fR (\fBCCACHE_DIRECT\fR) [boolean]
+\fBdirect_mode\fR (\fBCCACHE_DIRECT\fR or \fBCCACHE_NODIRECT\fR, see Boolean values above)
 .RS 4
 If true, the direct mode will be used\&. The default is true\&. See
 THE DIRECT MODE\&.
 .RE
 .PP
-\fBdisable\fR (\fBCCACHE_DISABLE\fR) [boolean]
+\fBdisable\fR (\fBCCACHE_DISABLE\fR or \fBCCACHE_NODISABLE\fR, see Boolean values above)
 .RS 4
 When true, ccache will just call the real compiler, bypassing the cache completely\&. The default is false\&.
 .RE
@@ -482,12 +482,12 @@ When true, ccache will just call the real compiler, bypassing the cache complete
 This setting is a list of paths to files that ccache will include in the the hash sum that idetifies the build\&. The list separator is semicolon on Windows systems and colon on other systems\&.
 .RE
 .PP
-\fBhard_link\fR (\fBCCACHE_HARDLINK\fR) [boolean]
+\fBhard_link\fR (\fBCCACHE_HARDLINK\fR or \fBCCACHE_NOHARDLINK\fR, see Boolean values above)
 .RS 4
 If true, ccache will attempt to use hard links from the cache directory when creating the compiler output rather than using a file copy\&. Using hard links may be slightly faster in some situations, but can confuse programs like \(lqmake\(rq that rely on modification times\&. Another thing to keep in mind is that if the resulting object file is modified in any way, this corrupts the cached object file as well\&. Hard links are never made for compressed cache files\&. This means that you should not enable compression if you want to use hard links\&. The default is false\&.
 .RE
 .PP
-\fBhash_dir\fR (\fBCCACHE_HASHDIR\fR) [boolean]
+\fBhash_dir\fR (\fBCCACHE_HASHDIR\fR or \fBCCACHE_NOHASHDIR\fR, see Boolean values above)
 .RS 4
 If true, ccache will include the current working directory in the hash that is used to distinguish two compilations\&. This prevents a problem with the storage of the current working directory in the debug info of a object file, which can lead ccache to give a cached object file that has the working directory in the debug info set incorrectly\&. This option is off by default as the incorrect setting of this debug info rarely causes problems\&. If you strike problems with GDB not using the correct directory then enable this option\&.
 .RE
@@ -520,14 +520,14 @@ This option adds a list of prefixes (separated by space) to the command line tha
 USING CCACHE WITH OTHER COMPILER WRAPPERS\&.
 .RE
 .PP
-\fBread_only\fR (\fBCCACHE_READONLY\fR) [boolean]
+\fBread_only\fR (\fBCCACHE_READONLY\fR or \fBCCACHE_NOREADONLY\fR, see Boolean values above)
 .RS 4
 If true, ccache will attempt to use existing cached object files, but it will not to try to add anything new to the cache\&. If you are using this because your ccache directory is read\-only, then you need to set
 \fBtemporary_dir\fR
 as otherwise ccache will fail to create temporary files\&.
 .RE
 .PP
-\fBread_only_direct\fR (\fBCCACHE_READONLY_DIRECT\fR) [boolean]
+\fBread_only_direct\fR (\fBCCACHE_READONLY_DIRECT\fR or \fBCCACHE_NOREADONLY_DIRECT\fR, see Boolean values above)
 .RS 4
 Just like
 \fBread_only\fR
@@ -536,12 +536,12 @@ except that ccache will only try to retrieve results from the cache using the di
 regarding using a read\-only ccache directory\&.
 .RE
 .PP
-\fBrecache\fR (\fBCCACHE_RECACHE\fR) [boolean]
+\fBrecache\fR (\fBCCACHE_RECACHE\fR or \fBCCACHE_NORECACHE\fR, see Boolean values above)
 .RS 4
 If true, ccache will not use any previously stored result\&. New results will still be cached, possibly overwriting any pre\-existing results\&.
 .RE
 .PP
-\fBrun_second_cpp\fR (\fBCCACHE_CPP2\fR) [boolean]
+\fBrun_second_cpp\fR (\fBCCACHE_CPP2\fR or \fBCCACHE_NOCPP2\fR, see Boolean values above)
 .RS 4
 If true, ccache will not use the optimisation of avoiding the second call to the preprocessor by compiling the preprocessed output that was used for finding the hash in the case of a cache miss\&. This is primarily a debugging option, although it is possible that some unusual compilers will have problems with compiling the preprocessed output, in which case this option could allow ccache to be used anyway\&.
 .RE
@@ -593,7 +593,7 @@ TROUBLESHOOTING
 for more information\&.
 .RE
 .PP
-\fBstats\fR (\fBCCACHE_STATS\fR) [boolean]
+\fBstats\fR (\fBCCACHE_STATS\fR or \fBCCACHE_NOSTATS\fR, see Boolean values above)
 .RS 4
 If true, ccache will update the statistics counters on each compilation\&. The default is true\&.
 .RE
@@ -628,7 +628,7 @@ path, but this requirement has been relaxed\&.)
 This setting specifies the umask for ccache and all child processes (such as the compiler)\&. This is mostly useful when you wish to share your cache with other users\&. Note that this also affects the file permissions set on the object files created from your compilations\&.
 .RE
 .PP
-\fBunify\fR (\fBCCACHE_UNIFY\fR) [boolean]
+\fBunify\fR (\fBCCACHE_UNIFY\fR or \fBCCACHE_NOUNIFY\fR, see Boolean values above)
 .RS 4
 If true, ccache will use a C/C++ unifier when hashing the preprocessor output if the
 \fB\-g\fR
@@ -1346,7 +1346,7 @@ if you are willing to take the risk\&. (The race condition consists of these eve
 .\}
 The
 \fB__TIME__\fR
-preprocessor macro is (potentially) being used\&. ccache turns off direct mode if \(lq__TIME__\(rq is present in the source code outside comments and string literals\&. This is done as a safety measure since the string indicates that a
+preprocessor macro is (potentially) being used\&. ccache turns off direct mode if \(lq__TIME__\(rq is present in the source code\&. This is done as a safety measure since the string indicates that a
 \fB__TIME__\fR
 macro
 \fImay\fR
@@ -1372,7 +1372,7 @@ The
 \fB__DATE__\fR
 preprocessor macro is (potentially) being used and the date has changed\&. This is similar to how
 \fB__TIME__\fR
-is handled\&. If \(lq__DATE__\(rq is present in the source code outside comments and string literals, ccache hashes the current date in order to be able to produce the correct object file if the
+is handled\&. If \(lq__DATE__\(rq is present in the source code, ccache hashes the current date in order to be able to produce the correct object file if the
 \fB__DATE__\fR
 macro affects the output\&. If you know that
 \fB__DATE__\fR
@@ -1394,7 +1394,7 @@ to
 .\}
 The
 \fB__FILE__\fR
-preprocessor macro is (potentially) being used and the file path has changed\&. If \(lq__FILE__\(rq is present in the source code outside comments and string literals, ccache hashes the current input file path in order to be able to produce the correct object file if the
+preprocessor macro is (potentially) being used and the file path has changed\&. If \(lq__FILE__\(rq is present in the source code, ccache hashes the current input file path in order to be able to produce the correct object file if the
 \fB__FILE__\fR
 macro affects the output\&. If you know that
 \fB__FILE__\fR

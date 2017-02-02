@@ -1,4 +1,4 @@
-prefix=/home/kzv/e51/depends/i686-pc-linux-gnu
+prefix=/home/kzv/bitcoin/depends/i686-pc-linux-gnu
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -14,5 +14,5 @@ Version: 2.11.1
 Requires:  freetype2
 Requires.private:  expat
 Libs: -L${libdir} -lfontconfig
-Libs.private: -L/home/kzv/e51/depends/i686-pc-linux-gnu/lib -lexpat -L/home/kzv/e51/depends/i686-pc-linux-gnu/lib -lfreetype  
-Cflags: -I${includedir} -I/home/kzv/e51/depends/i686-pc-linux-gnu/include -I/home/kzv/e51/depends/i686-pc-linux-gnu/include/freetype2  
+Libs.private: -L/home/kzv/bitcoin/depends/i686-pc-linux-gnu/lib -lexpat -L/home/kzv/bitcoin/depends/i686-pc-linux-gnu/lib -lfreetype  
+Cflags: -I${includedir} -I/home/kzv/bitcoin/depends/i686-pc-linux-gnu/include -I/home/kzv/bitcoin/depends/i686-pc-linux-gnu/include/freetype2  

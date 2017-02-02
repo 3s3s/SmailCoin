@@ -1,13 +1,13 @@
-prefix=/home/kzv/e51/depends/i686-pc-linux-gnu
+prefix=/home/kzv/bitcoin/depends/i686-pc-linux-gnu
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
-system_bus_default_address=unix:path=/home/kzv/e51/depends/i686-pc-linux-gnu/var/run/dbus/system_bus_socket
-sysconfdir=/home/kzv/e51/depends/i686-pc-linux-gnu/etc
-session_bus_services_dir=/home/kzv/e51/depends/i686-pc-linux-gnu/share/dbus-1/services
-system_bus_services_dir=/home/kzv/e51/depends/i686-pc-linux-gnu/share/dbus-1/system-services
-interfaces_dir=/home/kzv/e51/depends/i686-pc-linux-gnu/share/dbus-1/interfaces
-daemondir=/home/kzv/e51/depends/i686-pc-linux-gnu/bin
+system_bus_default_address=unix:path=/home/kzv/bitcoin/depends/i686-pc-linux-gnu/var/run/dbus/system_bus_socket
+sysconfdir=/home/kzv/bitcoin/depends/i686-pc-linux-gnu/etc
+session_bus_services_dir=/home/kzv/bitcoin/depends/i686-pc-linux-gnu/share/dbus-1/services
+system_bus_services_dir=/home/kzv/bitcoin/depends/i686-pc-linux-gnu/share/dbus-1/system-services
+interfaces_dir=/home/kzv/bitcoin/depends/i686-pc-linux-gnu/share/dbus-1/interfaces
+daemondir=/home/kzv/bitcoin/depends/i686-pc-linux-gnu/bin
 
 Name: dbus
 Description: Free desktop message bus

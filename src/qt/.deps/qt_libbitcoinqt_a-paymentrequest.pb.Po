@@ -1,13 +1,13 @@
 qt/qt_libbitcoinqt_a-paymentrequest.pb.o: qt/paymentrequest.pb.cc \
  /usr/include/stdc-predef.h qt/paymentrequest.pb.h \
  /usr/include/c++/5/string \
- /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/cpu_defines.h \
+ /usr/include/i386-linux-gnu/c++/5/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/5/bits/os_defines.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/c++/5/bits/cpu_defines.h \
  /usr/include/c++/5/bits/stringfwd.h /usr/include/c++/5/bits/memoryfwd.h \
  /usr/include/c++/5/bits/char_traits.h \
  /usr/include/c++/5/bits/stl_algobase.h \
@@ -25,25 +25,25 @@ qt/qt_libbitcoinqt_a-paymentrequest.pb.o: qt/paymentrequest.pb.cc \
  /usr/include/c++/5/bits/predefined_ops.h \
  /usr/include/c++/5/bits/postypes.h /usr/include/c++/5/cwchar \
  /usr/include/wchar.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h /usr/include/xlocale.h \
- /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/bits/wchar2.h \
  /usr/include/c++/5/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h \
+ /usr/include/i386-linux-gnu/c++/5/bits/c++allocator.h \
  /usr/include/c++/5/ext/new_allocator.h /usr/include/c++/5/new \
  /usr/include/c++/5/exception \
  /usr/include/c++/5/bits/atomic_lockfree_defines.h \
  /usr/include/c++/5/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/c++locale.h \
+ /usr/include/i386-linux-gnu/c++/5/bits/c++locale.h \
  /usr/include/c++/5/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/5/iosfwd \
+ /usr/include/i386-linux-gnu/bits/locale.h /usr/include/c++/5/iosfwd \
  /usr/include/c++/5/cctype /usr/include/ctype.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h \
  /usr/include/c++/5/bits/ostream_insert.h \
  /usr/include/c++/5/bits/cxxabi_forced.h \
  /usr/include/c++/5/bits/stl_function.h \
@@ -51,47 +51,47 @@ qt/qt_libbitcoinqt_a-paymentrequest.pb.o: qt/paymentrequest.pb.cc \
  /usr/include/c++/5/bits/range_access.h \
  /usr/include/c++/5/bits/basic_string.h \
  /usr/include/c++/5/ext/atomicity.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/gthr.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h \
+ /usr/include/i386-linux-gnu/c++/5/bits/gthr.h \
+ /usr/include/i386-linux-gnu/c++/5/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h \
+ /usr/include/i386-linux-gnu/bits/sched.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/bits/timex.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/i386-linux-gnu/bits/setjmp.h \
+ /usr/include/i386-linux-gnu/c++/5/bits/atomic_word.h \
  /usr/include/c++/5/ext/alloc_traits.h \
  /usr/include/c++/5/bits/basic_string.tcc \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/stubs/common.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/stubs/common.h \
  /usr/include/assert.h /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/sigset.h \
- /usr/include/x86_64-linux-gnu/bits/select2.h \
- /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/c++/5/cstddef \
- /usr/include/string.h /usr/include/x86_64-linux-gnu/bits/string3.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/generated_message_util.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/stubs/once.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/stubs/atomicops.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/stubs/platform_macros.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/stubs/atomicops_internals_x86_gcc.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/message.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h \
+ /usr/include/i386-linux-gnu/sys/types.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/select2.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h \
+ /usr/include/i386-linux-gnu/bits/stdlib.h /usr/include/c++/5/cstddef \
+ /usr/include/string.h /usr/include/i386-linux-gnu/bits/string3.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/generated_message_util.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/stubs/once.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/stubs/atomicops.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/stubs/platform_macros.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/stubs/atomicops_internals_x86_gcc.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/message.h \
  /usr/include/c++/5/vector /usr/include/c++/5/bits/stl_construct.h \
  /usr/include/c++/5/bits/stl_uninitialized.h \
  /usr/include/c++/5/bits/stl_vector.h \
  /usr/include/c++/5/bits/stl_bvector.h /usr/include/c++/5/bits/vector.tcc \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/message_lite.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/descriptor.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/message_lite.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/descriptor.h \
  /usr/include/c++/5/set /usr/include/c++/5/bits/stl_tree.h \
  /usr/include/c++/5/bits/stl_set.h /usr/include/c++/5/bits/stl_multiset.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/repeated_field.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/repeated_field.h \
  /usr/include/c++/5/iterator /usr/include/c++/5/ostream \
  /usr/include/c++/5/ios /usr/include/c++/5/bits/ios_base.h \
  /usr/include/c++/5/bits/locale_classes.h \
@@ -100,51 +100,49 @@ qt/qt_libbitcoinqt_a-paymentrequest.pb.o: qt/paymentrequest.pb.cc \
  /usr/include/c++/5/bits/basic_ios.h \
  /usr/include/c++/5/bits/locale_facets.h /usr/include/c++/5/cwctype \
  /usr/include/wctype.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/ctype_base.h \
+ /usr/include/i386-linux-gnu/c++/5/bits/ctype_base.h \
  /usr/include/c++/5/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/ctype_inline.h \
+ /usr/include/i386-linux-gnu/c++/5/bits/ctype_inline.h \
  /usr/include/c++/5/bits/locale_facets.tcc \
  /usr/include/c++/5/bits/basic_ios.tcc \
  /usr/include/c++/5/bits/ostream.tcc /usr/include/c++/5/istream \
  /usr/include/c++/5/bits/istream.tcc \
  /usr/include/c++/5/bits/stream_iterator.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/stubs/type_traits.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/stubs/type_traits.h \
  /usr/include/c++/5/utility /usr/include/c++/5/bits/stl_relops.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/stubs/template_util.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/extension_set.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/stubs/template_util.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/extension_set.h \
  /usr/include/c++/5/map /usr/include/c++/5/bits/stl_map.h \
  /usr/include/c++/5/bits/stl_multimap.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/unknown_field_set.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/unknown_field_set.h \
  /usr/include/c++/5/algorithm /usr/include/c++/5/bits/stl_algo.h \
  /usr/include/c++/5/cstdlib /usr/include/c++/5/bits/algorithmfwd.h \
  /usr/include/c++/5/bits/stl_heap.h /usr/include/c++/5/bits/stl_tempbuf.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/io/coded_stream.h \
- /usr/include/x86_64-linux-gnu/sys/param.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/signal.h \
- /usr/include/x86_64-linux-gnu/bits/signum.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo.h \
- /usr/include/x86_64-linux-gnu/bits/sigaction.h \
- /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
- /usr/include/x86_64-linux-gnu/bits/sigstack.h \
- /usr/include/x86_64-linux-gnu/sys/ucontext.h \
- /usr/include/x86_64-linux-gnu/bits/sigthread.h \
- /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
- /usr/include/x86_64-linux-gnu/asm/param.h \
- /usr/include/asm-generic/param.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/wire_format_lite_inl.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/wire_format_lite.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/generated_message_reflection.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/generated_enum_reflection.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/reflection_ops.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/wire_format.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/descriptor.pb.h
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/io/coded_stream.h \
+ /usr/include/i386-linux-gnu/sys/param.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include-fixed/limits.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/i386-linux-gnu/bits/posix1_lim.h \
+ /usr/include/i386-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/i386-linux-gnu/bits/posix2_lim.h \
+ /usr/include/i386-linux-gnu/bits/xopen_lim.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h /usr/include/signal.h \
+ /usr/include/i386-linux-gnu/bits/signum.h \
+ /usr/include/i386-linux-gnu/bits/siginfo.h \
+ /usr/include/i386-linux-gnu/bits/sigaction.h \
+ /usr/include/i386-linux-gnu/bits/sigcontext.h \
+ /usr/include/i386-linux-gnu/bits/sigstack.h \
+ /usr/include/i386-linux-gnu/sys/ucontext.h \
+ /usr/include/i386-linux-gnu/bits/sigthread.h \
+ /usr/include/i386-linux-gnu/bits/param.h /usr/include/linux/param.h \
+ /usr/include/i386-linux-gnu/asm/param.h /usr/include/asm-generic/param.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/wire_format_lite_inl.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/wire_format_lite.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/generated_message_reflection.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/generated_enum_reflection.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/reflection_ops.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/wire_format.h \
+ /home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/descriptor.pb.h
 
 /usr/include/stdc-predef.h:
 
@@ -152,21 +150,21 @@ qt/paymentrequest.pb.h:
 
 /usr/include/c++/5/string:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h:
+/usr/include/i386-linux-gnu/c++/5/bits/c++config.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h:
+/usr/include/i386-linux-gnu/c++/5/bits/os_defines.h:
 
 /usr/include/features.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/i386-linux-gnu/sys/cdefs.h:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/i386-linux-gnu/bits/wordsize.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/include/i386-linux-gnu/gnu/stubs.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/include/i386-linux-gnu/gnu/stubs-32.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/cpu_defines.h:
+/usr/include/i386-linux-gnu/c++/5/bits/cpu_defines.h:
 
 /usr/include/c++/5/bits/stringfwd.h:
 
@@ -212,19 +210,19 @@ qt/paymentrequest.pb.h:
 
 /usr/include/stdio.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+/usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h:
 
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
+/usr/include/i386-linux-gnu/bits/wchar.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
+/usr/lib/gcc/i686-linux-gnu/5/include/stddef.h:
 
 /usr/include/xlocale.h:
 
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+/usr/include/i386-linux-gnu/bits/wchar2.h:
 
 /usr/include/c++/5/bits/allocator.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h:
+/usr/include/i386-linux-gnu/c++/5/bits/c++allocator.h:
 
 /usr/include/c++/5/ext/new_allocator.h:
 
@@ -236,13 +234,13 @@ qt/paymentrequest.pb.h:
 
 /usr/include/c++/5/bits/localefwd.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/c++locale.h:
+/usr/include/i386-linux-gnu/c++/5/bits/c++locale.h:
 
 /usr/include/c++/5/clocale:
 
 /usr/include/locale.h:
 
-/usr/include/x86_64-linux-gnu/bits/locale.h:
+/usr/include/i386-linux-gnu/bits/locale.h:
 
 /usr/include/c++/5/iosfwd:
 
@@ -250,17 +248,17 @@ qt/paymentrequest.pb.h:
 
 /usr/include/ctype.h:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
+/usr/include/i386-linux-gnu/bits/types.h:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/i386-linux-gnu/bits/typesizes.h:
 
 /usr/include/endian.h:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
+/usr/include/i386-linux-gnu/bits/endian.h:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+/usr/include/i386-linux-gnu/bits/byteswap.h:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+/usr/include/i386-linux-gnu/bits/byteswap-16.h:
 
 /usr/include/c++/5/bits/ostream_insert.h:
 
@@ -276,9 +274,9 @@ qt/paymentrequest.pb.h:
 
 /usr/include/c++/5/ext/atomicity.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/gthr.h:
+/usr/include/i386-linux-gnu/c++/5/bits/gthr.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h:
+/usr/include/i386-linux-gnu/c++/5/bits/gthr-default.h:
 
 /usr/include/pthread.h:
 
@@ -286,73 +284,73 @@ qt/paymentrequest.pb.h:
 
 /usr/include/time.h:
 
-/usr/include/x86_64-linux-gnu/bits/sched.h:
+/usr/include/i386-linux-gnu/bits/sched.h:
 
-/usr/include/x86_64-linux-gnu/bits/time.h:
+/usr/include/i386-linux-gnu/bits/time.h:
 
-/usr/include/x86_64-linux-gnu/bits/timex.h:
+/usr/include/i386-linux-gnu/bits/timex.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+/usr/include/i386-linux-gnu/bits/pthreadtypes.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/usr/include/i386-linux-gnu/bits/setjmp.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h:
+/usr/include/i386-linux-gnu/c++/5/bits/atomic_word.h:
 
 /usr/include/c++/5/ext/alloc_traits.h:
 
 /usr/include/c++/5/bits/basic_string.tcc:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/stubs/common.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/stubs/common.h:
 
 /usr/include/assert.h:
 
 /usr/include/stdlib.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+/usr/include/i386-linux-gnu/bits/waitflags.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/usr/include/i386-linux-gnu/bits/waitstatus.h:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/usr/include/i386-linux-gnu/sys/types.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
+/usr/include/i386-linux-gnu/sys/select.h:
 
-/usr/include/x86_64-linux-gnu/bits/select.h:
+/usr/include/i386-linux-gnu/bits/select.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigset.h:
+/usr/include/i386-linux-gnu/bits/sigset.h:
 
-/usr/include/x86_64-linux-gnu/bits/select2.h:
+/usr/include/i386-linux-gnu/bits/select2.h:
 
-/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+/usr/include/i386-linux-gnu/sys/sysmacros.h:
 
 /usr/include/alloca.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+/usr/include/i386-linux-gnu/bits/stdlib-bsearch.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+/usr/include/i386-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+/usr/include/i386-linux-gnu/bits/stdlib.h:
 
 /usr/include/c++/5/cstddef:
 
 /usr/include/string.h:
 
-/usr/include/x86_64-linux-gnu/bits/string3.h:
+/usr/include/i386-linux-gnu/bits/string3.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h:
+/usr/lib/gcc/i686-linux-gnu/5/include/stdint.h:
 
 /usr/include/stdint.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/generated_message_util.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/generated_message_util.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/stubs/once.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/stubs/once.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/stubs/atomicops.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/stubs/atomicops.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/stubs/platform_macros.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/stubs/platform_macros.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/stubs/atomicops_internals_x86_gcc.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/stubs/atomicops_internals_x86_gcc.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/message.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/message.h:
 
 /usr/include/c++/5/vector:
 
@@ -366,9 +364,9 @@ qt/paymentrequest.pb.h:
 
 /usr/include/c++/5/bits/vector.tcc:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/message_lite.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/message_lite.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/descriptor.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/descriptor.h:
 
 /usr/include/c++/5/set:
 
@@ -378,7 +376,7 @@ qt/paymentrequest.pb.h:
 
 /usr/include/c++/5/bits/stl_multiset.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/repeated_field.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/repeated_field.h:
 
 /usr/include/c++/5/iterator:
 
@@ -406,11 +404,11 @@ qt/paymentrequest.pb.h:
 
 /usr/include/wctype.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/ctype_base.h:
+/usr/include/i386-linux-gnu/c++/5/bits/ctype_base.h:
 
 /usr/include/c++/5/bits/streambuf_iterator.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/ctype_inline.h:
+/usr/include/i386-linux-gnu/c++/5/bits/ctype_inline.h:
 
 /usr/include/c++/5/bits/locale_facets.tcc:
 
@@ -424,15 +422,15 @@ qt/paymentrequest.pb.h:
 
 /usr/include/c++/5/bits/stream_iterator.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/stubs/type_traits.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/stubs/type_traits.h:
 
 /usr/include/c++/5/utility:
 
 /usr/include/c++/5/bits/stl_relops.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/stubs/template_util.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/stubs/template_util.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/extension_set.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/extension_set.h:
 
 /usr/include/c++/5/map:
 
@@ -440,7 +438,7 @@ qt/paymentrequest.pb.h:
 
 /usr/include/c++/5/bits/stl_multimap.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/unknown_field_set.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/unknown_field_set.h:
 
 /usr/include/c++/5/algorithm:
 
@@ -454,62 +452,62 @@ qt/paymentrequest.pb.h:
 
 /usr/include/c++/5/bits/stl_tempbuf.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/io/coded_stream.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/io/coded_stream.h:
 
-/usr/include/x86_64-linux-gnu/sys/param.h:
+/usr/include/i386-linux-gnu/sys/param.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h:
+/usr/lib/gcc/i686-linux-gnu/5/include-fixed/limits.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h:
+/usr/lib/gcc/i686-linux-gnu/5/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+/usr/include/i386-linux-gnu/bits/posix1_lim.h:
 
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+/usr/include/i386-linux-gnu/bits/local_lim.h:
 
 /usr/include/linux/limits.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+/usr/include/i386-linux-gnu/bits/posix2_lim.h:
 
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+/usr/include/i386-linux-gnu/bits/xopen_lim.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+/usr/include/i386-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/signal.h:
 
-/usr/include/x86_64-linux-gnu/bits/signum.h:
+/usr/include/i386-linux-gnu/bits/signum.h:
 
-/usr/include/x86_64-linux-gnu/bits/siginfo.h:
+/usr/include/i386-linux-gnu/bits/siginfo.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+/usr/include/i386-linux-gnu/bits/sigaction.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+/usr/include/i386-linux-gnu/bits/sigcontext.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+/usr/include/i386-linux-gnu/bits/sigstack.h:
 
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+/usr/include/i386-linux-gnu/sys/ucontext.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+/usr/include/i386-linux-gnu/bits/sigthread.h:
 
-/usr/include/x86_64-linux-gnu/bits/param.h:
+/usr/include/i386-linux-gnu/bits/param.h:
 
 /usr/include/linux/param.h:
 
-/usr/include/x86_64-linux-gnu/asm/param.h:
+/usr/include/i386-linux-gnu/asm/param.h:
 
 /usr/include/asm-generic/param.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/wire_format_lite_inl.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/wire_format_lite_inl.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/wire_format_lite.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/wire_format_lite.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/generated_message_reflection.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/generated_message_reflection.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/generated_enum_reflection.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/generated_enum_reflection.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/reflection_ops.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/reflection_ops.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/wire_format.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/wire_format.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/google/protobuf/descriptor.pb.h:
+/home/kzv/SmailCoin/depends/i686-pc-linux-gnu/share/../include/google/protobuf/descriptor.pb.h:

@@ -1,3 +1,8 @@
+#define QT_VERSION_MAJOR    5
+#define QT_VERSION_MINOR    6
+#define QT_VERSION_PATCH    1
+#define QT_VERSION_STR      "5.6.1"
+
 /* Everything */
 /* Compile time features */
 /* Qt was configured for a static build */
@@ -5,7 +10,6 @@
 # define QT_STATIC
 #endif
 
-#define QT_POINTER_SIZE 4
 
 // Compiler sub-arch support
 #define QT_COMPILER_SUPPORTS_SSE2 1
@@ -162,18 +166,6 @@
 # define QT_NO_PULSEAUDIO
 #endif
 
-#if defined(QT_NO_QML_DEBUGGER) && defined(QT_QML_DEBUGGER)
-# undef QT_NO_QML_DEBUGGER
-#elif !defined(QT_NO_QML_DEBUGGER) && !defined(QT_QML_DEBUGGER)
-# define QT_NO_QML_DEBUGGER
-#endif
-
-#if defined(QT_NO_SHAREDMEMORY) && defined(QT_SHAREDMEMORY)
-# undef QT_NO_SHAREDMEMORY
-#elif !defined(QT_NO_SHAREDMEMORY) && !defined(QT_SHAREDMEMORY)
-# define QT_NO_SHAREDMEMORY
-#endif
-
 #if defined(QT_NO_STYLE_GTK) && defined(QT_STYLE_GTK)
 # undef QT_NO_STYLE_GTK
 #elif !defined(QT_NO_STYLE_GTK) && !defined(QT_STYLE_GTK)
@@ -190,12 +182,6 @@
 # undef QT_NO_STYLE_WINDOWSMOBILE
 #elif !defined(QT_NO_STYLE_WINDOWSMOBILE) && !defined(QT_STYLE_WINDOWSMOBILE)
 # define QT_NO_STYLE_WINDOWSMOBILE
-#endif
-
-#if defined(QT_NO_SYSTEMSEMAPHORE) && defined(QT_SYSTEMSEMAPHORE)
-# undef QT_NO_SYSTEMSEMAPHORE
-#elif !defined(QT_NO_SYSTEMSEMAPHORE) && !defined(QT_SYSTEMSEMAPHORE)
-# define QT_NO_SYSTEMSEMAPHORE
 #endif
 
 #if defined(QT_NO_TSLIB) && defined(QT_TSLIB)

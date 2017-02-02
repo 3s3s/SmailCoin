@@ -1,7 +1,7 @@
-prefix=/home/kzv/e51/depends/i686-pc-linux-gnu
+prefix=/home/kzv/bitcoin/depends/i686-pc-linux-gnu
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
-includedir=/home/kzv/e51/depends/i686-pc-linux-gnu/include/xcb-shared
+includedir=/home/kzv/bitcoin/depends/i686-pc-linux-gnu/include/xcb-shared
 
 Name: XCB Sync
 Description: XCB Sync Extension

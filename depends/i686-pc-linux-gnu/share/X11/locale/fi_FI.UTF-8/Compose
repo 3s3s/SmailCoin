@@ -58,7 +58,7 @@
 #
 
 # Use en_US.UTF-8/Compose as the base compose sequence definition set
-include "/home/kzv/e51/depends/i686-pc-linux-gnu/share/X11/locale/en_US.UTF-8/Compose"
+include "/home/kzv/bitcoin/depends/i686-pc-linux-gnu/share/X11/locale/en_US.UTF-8/Compose"
 
 # Define all the sequences of the standard overriding any sequence
 # from en_US.UTF-8/Compose if such a sequence was provided already

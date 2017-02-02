@@ -17,8 +17,8 @@ extern "C" {
 #ifndef OPENSSL_NO_CAST
 # define OPENSSL_NO_CAST
 #endif
-#ifndef OPENSSL_NO_CMS
-# define OPENSSL_NO_CMS
+#ifndef OPENSSL_NO_COMP
+# define OPENSSL_NO_COMP
 #endif
 #ifndef OPENSSL_NO_DTLS1
 # define OPENSSL_NO_DTLS1
@@ -44,14 +44,14 @@ extern "C" {
 #ifndef OPENSSL_NO_KRB5
 # define OPENSSL_NO_KRB5
 #endif
+#ifndef OPENSSL_NO_LIBUNBOUND
+# define OPENSSL_NO_LIBUNBOUND
+#endif
 #ifndef OPENSSL_NO_MD2
 # define OPENSSL_NO_MD2
 #endif
 #ifndef OPENSSL_NO_MDC2
 # define OPENSSL_NO_MDC2
-#endif
-#ifndef OPENSSL_NO_RC2
-# define OPENSSL_NO_RC2
 #endif
 #ifndef OPENSSL_NO_RC4
 # define OPENSSL_NO_RC4
@@ -77,6 +77,9 @@ extern "C" {
 #ifndef OPENSSL_NO_SHA0
 # define OPENSSL_NO_SHA0
 #endif
+#ifndef OPENSSL_NO_SSL_TRACE
+# define OPENSSL_NO_SSL_TRACE
+#endif
 #ifndef OPENSSL_NO_SSL2
 # define OPENSSL_NO_SSL2
 #endif
@@ -91,6 +94,9 @@ extern "C" {
 #endif
 #ifndef OPENSSL_NO_UNIT_TEST
 # define OPENSSL_NO_UNIT_TEST
+#endif
+#ifndef OPENSSL_NO_WEAK_SSL_CIPHERS
+# define OPENSSL_NO_WEAK_SSL_CIPHERS
 #endif
 #ifndef OPENSSL_NO_WHIRLPOOL
 # define OPENSSL_NO_WHIRLPOOL
@@ -119,8 +125,8 @@ extern "C" {
 # if defined(OPENSSL_NO_CAST) && !defined(NO_CAST)
 #  define NO_CAST
 # endif
-# if defined(OPENSSL_NO_CMS) && !defined(NO_CMS)
-#  define NO_CMS
+# if defined(OPENSSL_NO_COMP) && !defined(NO_COMP)
+#  define NO_COMP
 # endif
 # if defined(OPENSSL_NO_DTLS1) && !defined(NO_DTLS1)
 #  define NO_DTLS1
@@ -146,14 +152,14 @@ extern "C" {
 # if defined(OPENSSL_NO_KRB5) && !defined(NO_KRB5)
 #  define NO_KRB5
 # endif
+# if defined(OPENSSL_NO_LIBUNBOUND) && !defined(NO_LIBUNBOUND)
+#  define NO_LIBUNBOUND
+# endif
 # if defined(OPENSSL_NO_MD2) && !defined(NO_MD2)
 #  define NO_MD2
 # endif
 # if defined(OPENSSL_NO_MDC2) && !defined(NO_MDC2)
 #  define NO_MDC2
-# endif
-# if defined(OPENSSL_NO_RC2) && !defined(NO_RC2)
-#  define NO_RC2
 # endif
 # if defined(OPENSSL_NO_RC4) && !defined(NO_RC4)
 #  define NO_RC4
@@ -179,6 +185,9 @@ extern "C" {
 # if defined(OPENSSL_NO_SHA0) && !defined(NO_SHA0)
 #  define NO_SHA0
 # endif
+# if defined(OPENSSL_NO_SSL_TRACE) && !defined(NO_SSL_TRACE)
+#  define NO_SSL_TRACE
+# endif
 # if defined(OPENSSL_NO_SSL2) && !defined(NO_SSL2)
 #  define NO_SSL2
 # endif
@@ -194,6 +203,9 @@ extern "C" {
 # if defined(OPENSSL_NO_UNIT_TEST) && !defined(NO_UNIT_TEST)
 #  define NO_UNIT_TEST
 # endif
+# if defined(OPENSSL_NO_WEAK_SSL_CIPHERS) && !defined(NO_WEAK_SSL_CIPHERS)
+#  define NO_WEAK_SSL_CIPHERS
+# endif
 # if defined(OPENSSL_NO_WHIRLPOOL) && !defined(NO_WHIRLPOOL)
 #  define NO_WHIRLPOOL
 # endif
@@ -206,8 +218,8 @@ extern "C" {
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/home/kzv/e51/depends/i686-pc-linux-gnu/lib/engines"
-#define OPENSSLDIR "/home/kzv/e51/depends/i686-pc-linux-gnu/etc/openssl"
+#define ENGINESDIR "/home/kzv/bitcoin/depends/i686-pc-linux-gnu/lib/engines"
+#define OPENSSLDIR "/home/kzv/bitcoin/depends/i686-pc-linux-gnu/etc/openssl"
 #endif
 #endif
 

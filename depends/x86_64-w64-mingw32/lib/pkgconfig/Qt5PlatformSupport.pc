@@ -1,4 +1,4 @@
-prefix=/home/kzv/e51/depends/x86_64-w64-mingw32
+prefix=/home/kzv/bitcoin-0.13.0/depends/x86_64-w64-mingw32
 exec_prefix=${prefix}
 libdir=${prefix}/lib
 includedir=${prefix}/include
@@ -6,9 +6,9 @@ includedir=${prefix}/include
 
 Name: Qt5 PlatformSupport
 Description: Qt PlatformSupport module
-Version: 5.5.0
+Version: 5.6.1
 Libs: -L${libdir} -lQt5PlatformSupportd 
-Libs.private: -L/home/kzv/e51/depends/x86_64-w64-mingw32/lib -lQt5Guid -lgdi32 -lcomdlg32 -loleaut32 -limm32 -lwinmm -lqtharfbuzzngd -lQt5DBusd -lnetapi32 -lQt5Cored -lole32 -luuid -lws2_32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmpr -lqtpcred   
+Libs.private: -L/home/kzv/bitcoin-0.13.0/depends/x86_64-w64-mingw32/lib /home/kzv/bitcoin-0.13.0/depends/x86_64-w64-mingw32/lib/libQt5Guid.a -lgdi32 -lcomdlg32 -loleaut32 -limm32 -lwinmm /home/kzv/bitcoin-0.13.0/depends/x86_64-w64-mingw32/lib/libqtharfbuzzngd.a /home/kzv/bitcoin-0.13.0/depends/x86_64-w64-mingw32/lib/libQt5DBusd.a -lnetapi32 /home/kzv/bitcoin-0.13.0/depends/x86_64-w64-mingw32/lib/libQt5Cored.a -lole32 -luuid -lws2_32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmpr /home/kzv/bitcoin-0.13.0/depends/x86_64-w64-mingw32/lib/libqtpcred.a   
 Cflags: -I${includedir}/QtPlatformSupport 
 Requires: Qt5Core Qt5Gui
 

@@ -1,4 +1,4 @@
-prefix=/home/kzv/e51/depends/i686-pc-linux-gnu
+prefix=/home/kzv/bitcoin/depends/i686-pc-linux-gnu
 exec_prefix=${prefix}
 datarootdir=${prefix}/share
 datadir=${datarootdir}

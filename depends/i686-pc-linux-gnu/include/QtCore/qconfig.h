@@ -1,3 +1,8 @@
+#define QT_VERSION_MAJOR    5
+#define QT_VERSION_MINOR    6
+#define QT_VERSION_PATCH    1
+#define QT_VERSION_STR      "5.6.1"
+
 /* Everything */
 /* Compile time features */
 /* Qt was configured for a static build */
@@ -6,7 +11,6 @@
 #endif
 
 #define QT_LARGEFILE_SUPPORT 64
-#define QT_POINTER_SIZE 4
 
 // Compiler sub-arch support
 #define QT_COMPILER_SUPPORTS_SSE2 1
@@ -103,12 +107,6 @@
 # define QT_NO_PULSEAUDIO
 #endif
 
-#if defined(QT_NO_QML_DEBUGGER) && defined(QT_QML_DEBUGGER)
-# undef QT_NO_QML_DEBUGGER
-#elif !defined(QT_NO_QML_DEBUGGER) && !defined(QT_QML_DEBUGGER)
-# define QT_NO_QML_DEBUGGER
-#endif
-
 #if defined(QT_NO_SESSIONMANAGER) && defined(QT_SESSIONMANAGER)
 # undef QT_NO_SESSIONMANAGER
 #elif !defined(QT_NO_SESSIONMANAGER) && !defined(QT_SESSIONMANAGER)
@@ -173,6 +171,12 @@
 # undef QT_RUNTIME_XRANDR
 #elif !defined(QT_RUNTIME_XRANDR) && !defined(QT_NO_RUNTIME_XRANDR)
 # define QT_RUNTIME_XRANDR
+#endif
+
+#if defined(QT_THREADSAFE_CLOEXEC) && defined(QT_NO_THREADSAFE_CLOEXEC)
+# undef QT_THREADSAFE_CLOEXEC
+#elif !defined(QT_THREADSAFE_CLOEXEC) && !defined(QT_NO_THREADSAFE_CLOEXEC)
+# define QT_THREADSAFE_CLOEXEC 1
 #endif
 
 #endif // QT_BOOTSTRAPPED

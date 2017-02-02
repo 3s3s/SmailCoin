@@ -130,7 +130,7 @@
 /* #undef _EVENT_HAVE_KQUEUE */
 
 /* Define if the system has zlib */
-/* #undef _EVENT_HAVE_LIBZ */
+#define _EVENT_HAVE_LIBZ 1
 
 /* Define to 1 if you have the <memory.h> header file. */
 #define _EVENT_HAVE_MEMORY_H 1
@@ -151,7 +151,7 @@
 /* #undef _EVENT_HAVE_OPENSSL */
 
 /* Define to 1 if you have the <openssl/bio.h> header file. */
-/* #undef _EVENT_HAVE_OPENSSL_BIO_H */
+#define _EVENT_HAVE_OPENSSL_BIO_H 1
 
 /* Define to 1 if you have the `pipe' function. */
 #define _EVENT_HAVE_PIPE 1
@@ -361,7 +361,7 @@
 /* #undef _EVENT_HAVE_WORKING_KQUEUE */
 
 /* Define to 1 if you have the <zlib.h> header file. */
-/* #undef _EVENT_HAVE_ZLIB_H */
+#define _EVENT_HAVE_ZLIB_H 1
 
 /* Define to the sub-directory in which libtool stores uninstalled libraries.
    */

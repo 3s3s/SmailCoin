@@ -1,4 +1,4 @@
-prefix=/home/kzv/e51/depends/i686-pc-linux-gnu
+prefix=/home/kzv/bitcoin/depends/i686-pc-linux-gnu
 exec_prefix=${prefix}
 libdir=${prefix}/lib
 includedir=${prefix}/include
@@ -6,9 +6,9 @@ includedir=${prefix}/include
 
 Name: Qt5 XcbQpa
 Description: Qt XcbQpa module
-Version: 5.5.0
+Version: 5.6.1
 Libs: -L${libdir} -lQt5XcbQpa 
-Libs.private: -lX11 -lX11-xcb -L//home/kzv/e51/depends/i686-pc-linux-gnu/lib -lxcb -L/home/kzv/e51/depends/work/build/i686-pc-linux-gnu/qt/5.5.0-007aae945e6/qtbase/src/plugins/platforms/xcb/xcb-static -lxcb-static -L/home/kzv/e51/depends/i686-pc-linux-gnu/lib -lQt5PlatformSupport -lfontconfig -lfreetype -lQt5DBus -lQt5Gui -lqtharfbuzzng -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread   
+Libs.private: -lX11 -lX11-xcb -L//home/kzv/bitcoin/depends/i686-pc-linux-gnu/lib -lxcb -L/home/kzv/bitcoin/depends/work/build/i686-pc-linux-gnu/qt/5.6.1-42c5d1b860b/qtbase/src/plugins/platforms/xcb/xcb-static -lxcb-static -L/home/kzv/bitcoin/depends/i686-pc-linux-gnu/lib -lQt5PlatformSupport -lfontconfig -lfreetype -lQt5DBus -lQt5Gui -lqtharfbuzzng -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread   
 Cflags: -I${includedir}/QtXcbQpa 
-Requires: Qt5Core Qt5Gui
+Requires: Qt5Core Qt5Gui Qt5Core Qt5Gui Qt5PlatformSupport
 

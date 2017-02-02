@@ -1,10 +1,10 @@
-prefix=/home/kzv/e51/depends/i686-pc-linux-gnu
+prefix=/home/kzv/bitcoin/depends/i686-pc-linux-gnu
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
 
 Name: expat
-Version: 2.1.0
+Version: 2.1.1
 Description: expat XML parser
 URL: http://www.libexpat.org
 Libs: -L${libdir} -lexpat
