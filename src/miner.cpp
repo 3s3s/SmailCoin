@@ -74,6 +74,8 @@ int64_t UpdateTime(CBlockHeader* pblock, const Consensus::Params& consensusParam
 CBlockTemplate* CreateNewBlock(const CChainParams& chainparams, const CScript& scriptPubKeyIn)
 {
     // Create new block
+    LogPrintf("CreateNewBlock(): starting\n");
+
     auto_ptr<CBlockTemplate> pblocktemplate(new CBlockTemplate());
     if(!pblocktemplate.get())
         return NULL;
@@ -142,6 +144,7 @@ CBlockTemplate* CreateNewBlock(const CChainParams& chainparams, const CScript& s
                                 ? nMedianTimePast
                                 : pblock->GetBlockTime();
 
+        LogPrintf("CreateNewBlock(): mempool.mapTx.size()=%u\n", mempool.mapTx.size());
         bool fPriorityBlock = nBlockPrioritySize > 0;
         if (fPriorityBlock) {
             vecPriority.reserve(mempool.mapTx.size());
@@ -161,6 +164,7 @@ CBlockTemplate* CreateNewBlock(const CChainParams& chainparams, const CScript& s
 
         while (mi != mempool.mapTx.get<3>().end() || !clearedTxs.empty())
         {
+            LogPrintf("CreateNewBlock(): continue mempool loop\n");
             bool priorityTx = false;
             if (fPriorityBlock && !vecPriority.empty()) { // add a tx from priority queue to fill the blockprioritysize
                 priorityTx = true;
@@ -179,8 +183,10 @@ CBlockTemplate* CreateNewBlock(const CChainParams& chainparams, const CScript& s
             }
 
             if (inBlock.count(iter))
+            {
+                LogPrintf("CreateNewBlock(): FAIL could have been added to the priorityBlock\n");
                 continue; // could have been added to the priorityBlock
-
+            }
             const CTransaction& tx = iter->GetTx();
 
             bool fOrphan = false;
@@ -192,6 +198,7 @@ CBlockTemplate* CreateNewBlock(const CChainParams& chainparams, const CScript& s
                 }
             }
             if (fOrphan) {
+                LogPrintf("CreateNewBlock(): FAIL fOrphan=true\n");
                 if (priorityTx)
                     waitPriMap.insert(std::make_pair(iter,actualPriority));
                 else
@@ -205,12 +212,18 @@ CBlockTemplate* CreateNewBlock(const CChainParams& chainparams, const CScript& s
                 fPriorityBlock = false;
                 waitPriMap.clear();
             }
+
+            //KZV Allow null comission
+#if 0
             if (!priorityTx &&
                 (iter->GetModifiedFee() < ::minRelayTxFee.GetFee(nTxSize) && nBlockSize >= nBlockMinSize)) {
+                LogPrintf("CreateNewBlock(): FAIL break 1\n");
                 break;
             }
+#endif
             if (nBlockSize + nTxSize >= nBlockMaxSize) {
                 if (nBlockSize >  nBlockMaxSize - 100 || lastFewTxs > 50) {
+                    LogPrintf("CreateNewBlock(): FAIL break 2\n");
                     break;
                 }
                 // Once we're within 1000 bytes of a full block, only look at 50 more txs
@@ -218,20 +231,27 @@ CBlockTemplate* CreateNewBlock(const CChainParams& chainparams, const CScript& s
                 if (nBlockSize > nBlockMaxSize - 1000) {
                     lastFewTxs++;
                 }
+                LogPrintf("CreateNewBlock(): FAIL continue 1\n");
                 continue;
             }
 
             if (!IsFinalTx(tx, nHeight, nLockTimeCutoff))
+            {
+                LogPrintf("CreateNewBlock(): FAIL !IsFinalTx\n");
                 continue;
+            }
 
             unsigned int nTxSigOps = iter->GetSigOpCount();
             if (nBlockSigOps + nTxSigOps >= MAX_BLOCK_SIGOPS) {
                 if (nBlockSigOps > MAX_BLOCK_SIGOPS - 2) {
+                    LogPrintf("CreateNewBlock(): FAIL break 3\n");
                     break;
                 }
+                LogPrintf("CreateNewBlock(): FAIL continue 2\n");
                 continue;
             }
 
+            LogPrintf("CreateNewBlock(): Add tx to block\n");
             CAmount nTxFees = iter->GetFee();
             // Added
             pblock->vtx.push_back(tx);

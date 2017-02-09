@@ -7,7 +7,7 @@
 
 #include "tinyformat.h"
 
-const std::string CURRENCY_UNIT = "SMC";
+const std::string CURRENCY_UNIT = "SML";
 
 CFeeRate::CFeeRate(const CAmount& nFeePaid, size_t nSize)
 {

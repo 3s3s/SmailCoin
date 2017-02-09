@@ -3,10 +3,10 @@ qt/qt_libbitcoinqt_a-moc_bitcoinaddressvalidator.o: \
  qt/bitcoinaddressvalidator.h \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtGui/QValidator \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtGui/qvalidator.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobject.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qnamespace.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qglobal.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobject.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qnamespace.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qglobal.h \
  /usr/include/c++/5/cstddef \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h \
@@ -16,11 +16,11 @@ qt/qt_libbitcoinqt_a-moc_bitcoinaddressvalidator.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/cpu_defines.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qconfig.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qfeatures.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qsystemdetection.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qprocessordetection.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qcompilerdetection.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qconfig.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qfeatures.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsystemdetection.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qprocessordetection.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qcompilerdetection.h \
  /usr/include/c++/5/utility /usr/include/c++/5/bits/stl_relops.h \
  /usr/include/c++/5/bits/stl_pair.h /usr/include/c++/5/bits/move.h \
  /usr/include/c++/5/bits/concept_check.h /usr/include/c++/5/algorithm \
@@ -64,23 +64,23 @@ qt/qt_libbitcoinqt_a-moc_bitcoinaddressvalidator.o: \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h \
  /usr/include/c++/5/ext/new_allocator.h \
  /usr/include/c++/5/bits/memoryfwd.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qtypeinfo.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qtypetraits.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qsysinfo.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qlogging.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qflags.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qbasicatomic.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic_x86.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qgenericatomic.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qglobalstatic.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qnumeric.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs_impl.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qstring.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qchar.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearray.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qrefcount.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qarraydata.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qtypeinfo.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qtypetraits.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsysinfo.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qlogging.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qflags.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qbasicatomic.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic_x86.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qgenericatomic.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qglobalstatic.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qnumeric.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs_impl.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qstring.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qchar.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearray.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qrefcount.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qarraydata.h \
  /usr/include/string.h /usr/include/x86_64-linux-gnu/bits/string3.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
  /usr/include/c++/5/string /usr/include/c++/5/bits/stringfwd.h \
@@ -108,9 +108,9 @@ qt/qt_libbitcoinqt_a-moc_bitcoinaddressvalidator.o: \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h \
  /usr/include/c++/5/bits/basic_string.tcc \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qlist.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qalgorithms.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qiterator.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qlist.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qalgorithms.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qiterator.h \
  /usr/include/c++/5/iterator /usr/include/c++/5/ostream \
  /usr/include/c++/5/ios /usr/include/c++/5/bits/ios_base.h \
  /usr/include/c++/5/bits/locale_classes.h \
@@ -136,29 +136,29 @@ qt/qt_libbitcoinqt_a-moc_bitcoinaddressvalidator.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearraylist.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qstringlist.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qregexp.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qstringmatcher.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qscopedpointer.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qmetatype.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qvarlengtharray.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qcontainerfwd.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qisenum.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearraylist.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qstringlist.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qregexp.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qstringmatcher.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qscopedpointer.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qmetatype.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qvarlengtharray.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qcontainerfwd.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qisenum.h \
  /usr/include/c++/5/vector /usr/include/c++/5/bits/stl_uninitialized.h \
  /usr/include/c++/5/bits/stl_vector.h \
  /usr/include/c++/5/bits/stl_bvector.h /usr/include/c++/5/bits/vector.tcc \
  /usr/include/c++/5/map /usr/include/c++/5/bits/stl_tree.h \
  /usr/include/c++/5/bits/stl_map.h /usr/include/c++/5/bits/stl_multimap.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobject_impl.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qregularexpression.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qshareddata.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qhash.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qpair.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobject_impl.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qregularexpression.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qshareddata.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qhash.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qpair.h \
  /usr/include/c++/5/numeric /usr/include/c++/5/bits/stl_numeric.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qvariant.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qmap.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qlocale.h
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qvariant.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qmap.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qlocale.h
 
 /usr/include/stdc-predef.h:
 
@@ -168,13 +168,13 @@ qt/bitcoinaddressvalidator.h:
 
 /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtGui/qvalidator.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobject.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobject.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qnamespace.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qnamespace.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qglobal.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qglobal.h:
 
 /usr/include/c++/5/cstddef:
 
@@ -196,15 +196,15 @@ qt/bitcoinaddressvalidator.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qconfig.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qconfig.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qfeatures.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qfeatures.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qsystemdetection.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsystemdetection.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qprocessordetection.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qprocessordetection.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qcompilerdetection.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qcompilerdetection.h:
 
 /usr/include/c++/5/utility:
 
@@ -316,39 +316,39 @@ qt/bitcoinaddressvalidator.h:
 
 /usr/include/c++/5/bits/memoryfwd.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qtypeinfo.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qtypeinfo.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qtypetraits.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qtypetraits.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qsysinfo.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsysinfo.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qlogging.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qlogging.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qflags.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qflags.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qbasicatomic.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qbasicatomic.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic_x86.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic_x86.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qgenericatomic.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qgenericatomic.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qglobalstatic.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qglobalstatic.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qnumeric.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qnumeric.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs_impl.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs_impl.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qstring.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qstring.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qchar.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qchar.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearray.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearray.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qrefcount.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qrefcount.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qarraydata.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qarraydata.h:
 
 /usr/include/string.h:
 
@@ -422,11 +422,11 @@ qt/bitcoinaddressvalidator.h:
 
 /usr/include/c++/5/bits/basic_string.tcc:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qlist.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qlist.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qalgorithms.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qalgorithms.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qiterator.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qiterator.h:
 
 /usr/include/c++/5/iterator:
 
@@ -496,23 +496,23 @@ qt/bitcoinaddressvalidator.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearraylist.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearraylist.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qstringlist.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qstringlist.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qregexp.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qregexp.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qstringmatcher.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qstringmatcher.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qscopedpointer.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qscopedpointer.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qmetatype.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qmetatype.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qvarlengtharray.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qvarlengtharray.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qcontainerfwd.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qcontainerfwd.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qisenum.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qisenum.h:
 
 /usr/include/c++/5/vector:
 
@@ -532,22 +532,22 @@ qt/bitcoinaddressvalidator.h:
 
 /usr/include/c++/5/bits/stl_multimap.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobject_impl.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobject_impl.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qregularexpression.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qregularexpression.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qshareddata.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qshareddata.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qhash.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qhash.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qpair.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qpair.h:
 
 /usr/include/c++/5/numeric:
 
 /usr/include/c++/5/bits/stl_numeric.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qvariant.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qvariant.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qmap.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qmap.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qlocale.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qlocale.h:

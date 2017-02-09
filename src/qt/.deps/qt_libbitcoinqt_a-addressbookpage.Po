@@ -2,9 +2,9 @@ qt/qt_libbitcoinqt_a-addressbookpage.o: qt/addressbookpage.cpp \
  /usr/include/stdc-predef.h config/bitcoin-config.h qt/addressbookpage.h \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QDialog \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qdialog.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qwidget.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qwindowdefs.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qglobal.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qwidget.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qwindowdefs.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qglobal.h \
  /usr/include/c++/5/cstddef \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h \
@@ -14,11 +14,11 @@ qt/qt_libbitcoinqt_a-addressbookpage.o: qt/addressbookpage.cpp \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/cpu_defines.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qconfig.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qfeatures.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qsystemdetection.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qprocessordetection.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qcompilerdetection.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qconfig.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qfeatures.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsystemdetection.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qprocessordetection.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qcompilerdetection.h \
  /usr/include/c++/5/utility /usr/include/c++/5/bits/stl_relops.h \
  /usr/include/c++/5/bits/stl_pair.h /usr/include/c++/5/bits/move.h \
  /usr/include/c++/5/bits/concept_check.h /usr/include/c++/5/algorithm \
@@ -62,26 +62,26 @@ qt/qt_libbitcoinqt_a-addressbookpage.o: qt/addressbookpage.cpp \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h \
  /usr/include/c++/5/ext/new_allocator.h \
  /usr/include/c++/5/bits/memoryfwd.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qtypeinfo.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qtypetraits.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qsysinfo.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qlogging.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qflags.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qbasicatomic.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic_x86.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qgenericatomic.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qglobalstatic.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qnumeric.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qnamespace.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs_impl.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobject.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qstring.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qchar.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearray.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qrefcount.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qarraydata.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qtypeinfo.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qtypetraits.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsysinfo.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qlogging.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qflags.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qbasicatomic.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic_x86.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qgenericatomic.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qglobalstatic.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qnumeric.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qnamespace.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs_impl.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobject.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qstring.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qchar.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearray.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qrefcount.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qarraydata.h \
  /usr/include/string.h /usr/include/x86_64-linux-gnu/bits/string3.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
  /usr/include/c++/5/string /usr/include/c++/5/bits/stringfwd.h \
@@ -109,9 +109,9 @@ qt/qt_libbitcoinqt_a-addressbookpage.o: qt/addressbookpage.cpp \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h \
  /usr/include/c++/5/bits/basic_string.tcc \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qlist.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qalgorithms.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qiterator.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qlist.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qalgorithms.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qiterator.h \
  /usr/include/c++/5/iterator /usr/include/c++/5/ostream \
  /usr/include/c++/5/ios /usr/include/c++/5/bits/ios_base.h \
  /usr/include/c++/5/bits/locale_classes.h \
@@ -137,111 +137,111 @@ qt/qt_libbitcoinqt_a-addressbookpage.o: qt/addressbookpage.cpp \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearraylist.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qstringlist.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qregexp.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qstringmatcher.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qscopedpointer.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qmetatype.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qvarlengtharray.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qcontainerfwd.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qisenum.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearraylist.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qstringlist.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qregexp.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qstringmatcher.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qscopedpointer.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qmetatype.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qvarlengtharray.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qcontainerfwd.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qisenum.h \
  /usr/include/c++/5/vector /usr/include/c++/5/bits/stl_uninitialized.h \
  /usr/include/c++/5/bits/stl_vector.h \
  /usr/include/c++/5/bits/stl_bvector.h /usr/include/c++/5/bits/vector.tcc \
  /usr/include/c++/5/map /usr/include/c++/5/bits/stl_tree.h \
  /usr/include/c++/5/bits/stl_map.h /usr/include/c++/5/bits/stl_multimap.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobject_impl.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qmargins.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qpaintdevice.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qrect.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qsize.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qpoint.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qpalette.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qcolor.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qrgb.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qbrush.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qpair.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qvector.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qmatrix.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qpolygon.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qregion.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qdatastream.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qiodevice.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qline.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qtransform.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qpainterpath.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qimage.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qpixelformat.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qpixmap.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qsharedpointer.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qshareddata.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qhash.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobject_impl.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qmargins.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qpaintdevice.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qrect.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsize.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qpoint.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qpalette.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qcolor.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qrgb.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qbrush.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qpair.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qvector.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qmatrix.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qpolygon.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qregion.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qdatastream.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qiodevice.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qline.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qtransform.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qpainterpath.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qimage.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qpixelformat.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qpixmap.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsharedpointer.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qshareddata.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qhash.h \
  /usr/include/c++/5/numeric /usr/include/c++/5/bits/stl_numeric.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qsharedpointer_impl.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qfont.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qfontmetrics.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qfontinfo.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qsizepolicy.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qcursor.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qkeysequence.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsharedpointer_impl.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qfont.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qfontmetrics.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qfontinfo.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qsizepolicy.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qcursor.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qkeysequence.h \
  qt/forms/ui_addressbookpage.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/QVariant \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qvariant.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qmap.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QAction \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qaction.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qvariant.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qicon.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qactiongroup.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qaction.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QApplication \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qapplication.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qcoreapplication.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qcoreevent.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qeventloop.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qguiapplication.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qinputmethod.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qlocale.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QButtonGroup \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qbuttongroup.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QHBoxLayout \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qboxlayout.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlayout.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlayoutitem.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qboxlayout.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qgridlayout.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QHeaderView \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qheaderview.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractitemview.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractscrollarea.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qframe.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qabstractitemmodel.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qitemselectionmodel.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qset.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractitemdelegate.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qstyleoption.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractspinbox.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qvalidator.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qregularexpression.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qslider.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractslider.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qstyle.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qtabbar.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qtabwidget.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qrubberband.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QLabel \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlabel.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QPushButton \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qpushbutton.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractbutton.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QSpacerItem \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlayoutitem.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QTableView \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qtableview.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QVBoxLayout \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QWidget \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qwidget.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/QVariant \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qvariant.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qmap.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QAction \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qaction.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qvariant.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qicon.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qactiongroup.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qaction.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QApplication \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qapplication.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qcoreapplication.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qcoreevent.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qeventloop.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qguiapplication.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qinputmethod.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qlocale.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QButtonGroup \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qbuttongroup.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QHBoxLayout \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qboxlayout.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlayout.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlayoutitem.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qboxlayout.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qgridlayout.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QHeaderView \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qheaderview.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractitemview.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractscrollarea.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qframe.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qabstractitemmodel.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qitemselectionmodel.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qset.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractitemdelegate.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qstyleoption.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractspinbox.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qvalidator.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qregularexpression.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qslider.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractslider.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qstyle.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qtabbar.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qtabwidget.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qrubberband.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QLabel \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlabel.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QPushButton \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qpushbutton.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractbutton.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QSpacerItem \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlayoutitem.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QTableView \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qtableview.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QVBoxLayout \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QWidget \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qwidget.h \
  qt/addresstablemodel.h \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore/QAbstractTableModel \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore/qabstractitemmodel.h \
@@ -277,433 +277,433 @@ qt/qt_libbitcoinqt_a-addressbookpage.o: qt/addressbookpage.cpp \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qheaderview.h \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QMessageBox \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qmessagebox.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qdialog.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qdialog.h \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QProgressBar \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qprogressbar.h \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore/QString \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore/qstring.h \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QTableView \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qtableview.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/filesystem.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/filesystem/config.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/user.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/select_compiler_config.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/compiler/gcc.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/select_stdlib_config.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/stdlib/libstdcpp3.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/filesystem.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/filesystem/config.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/user.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/select_compiler_config.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/compiler/gcc.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/select_stdlib_config.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/stdlib/libstdcpp3.hpp \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/select_platform_config.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/platform/linux.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/posix_features.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/suffix.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/system/api_config.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/detail/workaround.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/auto_link.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/filesystem/path.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/filesystem/path_traits.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/utility/enable_if.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/core/enable_if.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_array.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/config.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/bool_trait_def.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/template_arity_spec.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/int.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/int_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/adl_barrier.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/adl.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/msvc.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/intel.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/gcc.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/workaround.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/nttp_decl.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/nttp.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/integral_wrapper.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/integral_c_tag.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/static_constant.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/static_cast.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/cat.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/config/config.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/template_arity_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/params.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/preprocessor.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/comma_if.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/punctuation/comma_if.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/if.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/iif.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/bool.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/empty.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/punctuation/comma.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repeat.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repetition/repeat.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/debug/error.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/detail/auto_rec.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/eat.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/inc.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/inc.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/lambda.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/ttp.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/ctps.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/overload_resolution.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/integral_constant.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/bool.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/bool_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/integral_c.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/integral_c_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/lambda_support.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/bool_trait_undef.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/decay.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_function.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_reference.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_lvalue_reference.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_rvalue_reference.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/ice.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/yes_no_type.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_or.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_and.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_not.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_eq.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/false_result.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/is_function_ptr_helper.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_bounds.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/type_trait_def.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/type_trait_undef.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_pointer.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_reference.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/eval_if.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/if.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/value_wknd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/integral.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/eti.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na_spec.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/lambda_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/void_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/lambda_arity_param.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/arity.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/dtp.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/enum.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/limits/arity.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/and.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/bitand.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/identity.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/identity.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/empty.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/add.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/dec.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/while.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/fold_left.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/detail/fold_left.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/expr_iif.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/adt.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/detail/is_binary.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/detail/check.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/compl.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/fold_right.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/detail/fold_right.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/reverse.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/detail/while.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/elem.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/expand.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/overload.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/variadic/size.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/rem.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/variadic/elem.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/sub.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/identity.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/system/error_code.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/system/config.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/platform.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/mingw.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/version_number.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/make.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/test.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_desktop.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/windows.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_store.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_phone.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_runtime.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/cstdint.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/assert.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/noncopyable.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/core/noncopyable.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/select_platform_config.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/platform/linux.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/posix_features.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/suffix.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/system/api_config.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/detail/workaround.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/auto_link.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/filesystem/path.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/filesystem/path_traits.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/utility/enable_if.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/core/enable_if.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_array.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/config.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/bool_trait_def.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/template_arity_spec.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/int.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/int_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/adl_barrier.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/adl.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/msvc.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/intel.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/gcc.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/workaround.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/nttp_decl.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/nttp.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/integral_wrapper.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/integral_c_tag.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/static_constant.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/static_cast.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/cat.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/config/config.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/template_arity_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/params.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/preprocessor.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/comma_if.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/punctuation/comma_if.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/if.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/iif.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/bool.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/empty.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/punctuation/comma.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repeat.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repetition/repeat.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/debug/error.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/detail/auto_rec.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/eat.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/inc.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/inc.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/lambda.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/ttp.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/ctps.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/overload_resolution.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/integral_constant.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/bool.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/bool_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/integral_c.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/integral_c_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/lambda_support.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/bool_trait_undef.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/decay.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_function.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_reference.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_lvalue_reference.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_rvalue_reference.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/ice.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/yes_no_type.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_or.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_and.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_not.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_eq.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/false_result.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/is_function_ptr_helper.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_bounds.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/type_trait_def.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/type_trait_undef.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_pointer.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_reference.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/eval_if.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/if.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/value_wknd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/integral.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/eti.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na_spec.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/lambda_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/void_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/lambda_arity_param.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/arity.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/dtp.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/enum.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/limits/arity.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/and.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/bitand.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/identity.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/identity.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/empty.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/add.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/dec.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/while.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/fold_left.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/detail/fold_left.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/expr_iif.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/adt.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/detail/is_binary.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/detail/check.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/compl.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/fold_right.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/detail/fold_right.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/reverse.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/detail/while.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/elem.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/expand.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/overload.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/variadic/size.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/rem.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/variadic/elem.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/sub.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/identity.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/system/error_code.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/system/config.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/platform.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/mingw.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/version_number.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/make.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/test.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_desktop.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/windows.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_store.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_phone.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_runtime.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/cstdint.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/assert.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/noncopyable.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/core/noncopyable.hpp \
  /usr/include/c++/5/functional \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/cerrno.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/cerrno.hpp \
  /usr/include/c++/5/cerrno /usr/include/errno.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/abi_prefix.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/abi_suffix.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/abi_prefix.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/abi_suffix.hpp \
  /usr/include/c++/5/locale /usr/include/c++/5/bits/locale_facets_nonio.h \
  /usr/include/c++/5/ctime \
  /usr/include/x86_64-linux-gnu/c++/5/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/messages_members.h \
  /usr/include/libintl.h /usr/include/c++/5/bits/codecvt.h \
  /usr/include/c++/5/bits/locale_facets_nonio.tcc \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/system/system_error.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/system/system_error.hpp \
  /usr/include/c++/5/cassert \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/iterator_facade.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/interoperable.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/or.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/use_preprocessed.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/nested_type_wknd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/include_preprocessed.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/compiler.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/stringize.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_convertible.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/intrinsics.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_same.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_volatile.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/cv_traits_impl.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_arithmetic.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_integral.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_float.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_void.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_abstract.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_lvalue_reference.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_reference.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_rvalue_reference.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/config_def.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/config_undef.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/iterator_traits.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/detail/iterator.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/iterator_categories.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/placeholders.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/arg.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/arg_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na_assert.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/assert.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/not.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/yes_no.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/arrays.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/gpu.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/pp_counter.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/arity_spec.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/arg_typedef.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/static_assert.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/facade_iterator_category.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/and.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_const.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/detail/indirect_traits.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_pointer.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_member_pointer.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_member_function_pointer.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_cv.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_class.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_pointer.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/enable_if.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/utility/addressof.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/core/addressof.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_const.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_const.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_pod.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_scalar.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_enum.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/always.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/default_params.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/apply.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/apply_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/apply_wrap.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/has_apply.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/has_xxx.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/type_wrapper.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/has_xxx.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/msvc_typename.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/array/elem.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/array/data.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/array/size.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repetition/enum_params.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/has_apply.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/msvc_never_true.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/lambda.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/bind.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/bind_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/bind.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/next.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/next_prior.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/common_name_wknd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/protect.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/full_lambda.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/quote.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/void.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/has_type.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/bcc.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/template_arity.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/shared_ptr.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/shared_ptr.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/no_tr1/memory.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/iterator_facade.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/interoperable.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/or.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/use_preprocessed.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/nested_type_wknd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/include_preprocessed.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/compiler.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/stringize.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_convertible.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/intrinsics.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_same.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_volatile.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/cv_traits_impl.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_arithmetic.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_integral.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_float.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_void.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_abstract.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_lvalue_reference.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_reference.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_rvalue_reference.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/config_def.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/config_undef.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/iterator_traits.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/detail/iterator.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/iterator_categories.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/placeholders.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/arg.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/arg_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na_assert.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/assert.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/not.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/yes_no.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/arrays.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/gpu.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/pp_counter.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/arity_spec.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/arg_typedef.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/static_assert.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/facade_iterator_category.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/and.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_const.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/detail/indirect_traits.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_pointer.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_member_pointer.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_member_function_pointer.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_cv.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_class.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_pointer.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/enable_if.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/utility/addressof.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/core/addressof.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_const.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_const.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_pod.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_scalar.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_enum.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/always.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/default_params.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/apply.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/apply_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/apply_wrap.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/has_apply.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/has_xxx.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/type_wrapper.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/has_xxx.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/msvc_typename.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/array/elem.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/array/data.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/array/size.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repetition/enum_params.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/has_apply.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/msvc_never_true.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/lambda.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/bind.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/bind_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/bind.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/next.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/next_prior.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/common_name_wknd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/protect.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/full_lambda.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/quote.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/void.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/has_type.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/bcc.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/template_arity.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/shared_ptr.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/shared_ptr.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/no_tr1/memory.hpp \
  /usr/include/c++/5/memory /usr/include/c++/5/bits/stl_raw_storage_iter.h \
  /usr/include/c++/5/backward/auto_ptr.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/checked_delete.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/core/checked_delete.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/throw_exception.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/exception/exception.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/current_function.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/shared_count.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/bad_weak_ptr.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_counted_base.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_has_sync.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/detail/sp_typeinfo.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/core/typeinfo.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/core/demangle.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/checked_delete.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/core/checked_delete.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/throw_exception.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/exception/exception.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/current_function.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/shared_count.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/bad_weak_ptr.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_counted_base.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_has_sync.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/detail/sp_typeinfo.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/core/typeinfo.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/core/demangle.hpp \
  /usr/include/c++/5/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/cxxabi_tweaks.h \
  /usr/include/c++/5/typeinfo \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_convertible.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/spinlock_pool.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/spinlock.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/spinlock_sync.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/yield_k.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/language.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/language/stdc.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/language/stdcpp.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/language/objc.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/alpha.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/arm.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/blackfin.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/convex.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/ia64.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/m68k.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/mips.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/parisc.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/ppc.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/pyramid.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/rs6k.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/sparc.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/superh.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/sys370.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/sys390.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/x86.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/x86/32.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/x86/64.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/z.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/borland.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/clang.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/comeau.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/compaq.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/diab.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/digitalmars.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/dignus.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/edg.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/ekopath.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/gcc_xml.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/gcc.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/comp_detected.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/greenhills.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/hp_acc.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/iar.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/ibm.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/intel.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/kai.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/llvm.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/metaware.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/metrowerks.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/microtec.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/mpw.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/palm.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/pgi.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/sgi_mipspro.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/sunpro.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/tendra.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/visualc.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/watcom.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/_prefix.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/_cassert.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/gnu.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/uc.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/vms.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/zos.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/_prefix.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/_exception.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/cxx.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/dinkumware.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/libcomo.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/modena.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/msl.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/roguewave.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/sgi.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/stdcpp3.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/stlport.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/vacpp.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/aix.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/amigaos.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/android.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/beos.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/macos.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/ios.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/bsdi.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/dragonfly.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/free.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/open.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/net.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/cygwin.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/haiku.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/hpux.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/irix.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/linux.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/os_detected.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/os400.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/qnxnto.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/solaris.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/unix.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/vms.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/other.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/other/endian.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/version.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/operator_bool.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/io/detail/quoted_manip.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/io/ios_state.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/io_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/functional/hash_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/functional/hash/hash_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_convertible.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/spinlock_pool.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/spinlock.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/spinlock_sync.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/yield_k.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/language.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/language/stdc.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/language/stdcpp.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/language/objc.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/alpha.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/arm.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/blackfin.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/convex.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/ia64.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/m68k.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/mips.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/parisc.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/ppc.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/pyramid.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/rs6k.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/sparc.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/superh.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/sys370.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/sys390.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/x86.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/x86/32.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/x86/64.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/z.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/borland.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/clang.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/comeau.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/compaq.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/diab.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/digitalmars.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/dignus.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/edg.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/ekopath.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/gcc_xml.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/gcc.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/comp_detected.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/greenhills.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/hp_acc.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/iar.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/ibm.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/intel.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/kai.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/llvm.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/metaware.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/metrowerks.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/microtec.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/mpw.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/palm.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/pgi.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/sgi_mipspro.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/sunpro.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/tendra.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/visualc.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/watcom.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/_prefix.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/_cassert.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/gnu.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/uc.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/vms.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/zos.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/_prefix.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/_exception.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/cxx.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/dinkumware.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/libcomo.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/modena.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/msl.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/roguewave.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/sgi.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/stdcpp3.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/stlport.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/vacpp.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/aix.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/amigaos.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/android.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/beos.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/macos.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/ios.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/bsdi.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/dragonfly.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/free.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/open.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/net.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/cygwin.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/haiku.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/hpux.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/irix.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/linux.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/os_detected.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/os400.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/qnxnto.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/solaris.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/unix.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/vms.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/other.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/other/endian.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/version.h \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/operator_bool.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/io/detail/quoted_manip.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/io/ios_state.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/io_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/functional/hash_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/functional/hash/hash_fwd.hpp \
  /usr/include/c++/5/cstring \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/filesystem/operations.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/detail/scoped_enum_emulation.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/core/scoped_enum.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/detail/bitmask.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/range/mutable_iterator.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/range/config.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/range/range_fwd.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/range/detail/extract_optional_type.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/range/detail/msvc_has_iterator_workaround.hpp \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/range/const_iterator.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/filesystem/operations.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/detail/scoped_enum_emulation.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/core/scoped_enum.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/detail/bitmask.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/range/mutable_iterator.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/range/config.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/range/range_fwd.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/range/detail/extract_optional_type.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/range/detail/msvc_has_iterator_workaround.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/range/const_iterator.hpp \
  /usr/include/c++/5/stack /usr/include/c++/5/deque \
  /usr/include/c++/5/bits/stl_deque.h /usr/include/c++/5/bits/deque.tcc \
  /usr/include/c++/5/bits/stl_stack.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/filesystem/convenience.hpp \
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/filesystem/convenience.hpp \
  qt/platformstyle.h \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtGui/QIcon \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtGui/qicon.h \
@@ -711,7 +711,7 @@ qt/qt_libbitcoinqt_a-addressbookpage.o: qt/addressbookpage.cpp \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtGui/qpixmap.h \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore/QSortFilterProxyModel \
  /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsortfilterproxymodel.h \
- /home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qabstractproxymodel.h
+ /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qabstractproxymodel.h
 
 /usr/include/stdc-predef.h:
 
@@ -723,11 +723,11 @@ qt/addressbookpage.h:
 
 /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qdialog.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qwidget.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qwidget.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qwindowdefs.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qwindowdefs.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qglobal.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qglobal.h:
 
 /usr/include/c++/5/cstddef:
 
@@ -749,15 +749,15 @@ qt/addressbookpage.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qconfig.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qconfig.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qfeatures.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qfeatures.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qsystemdetection.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsystemdetection.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qprocessordetection.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qprocessordetection.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qcompilerdetection.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qcompilerdetection.h:
 
 /usr/include/c++/5/utility:
 
@@ -869,45 +869,45 @@ qt/addressbookpage.h:
 
 /usr/include/c++/5/bits/memoryfwd.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qtypeinfo.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qtypeinfo.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qtypetraits.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qtypetraits.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qsysinfo.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsysinfo.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qlogging.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qlogging.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qflags.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qflags.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qbasicatomic.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qbasicatomic.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic_x86.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qatomic_x86.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qgenericatomic.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qgenericatomic.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qglobalstatic.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qglobalstatic.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qnumeric.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qnumeric.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qnamespace.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qnamespace.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs_impl.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobjectdefs_impl.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobject.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobject.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qstring.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qstring.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qchar.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qchar.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearray.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearray.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qrefcount.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qrefcount.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qarraydata.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qarraydata.h:
 
 /usr/include/string.h:
 
@@ -981,11 +981,11 @@ qt/addressbookpage.h:
 
 /usr/include/c++/5/bits/basic_string.tcc:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qlist.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qlist.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qalgorithms.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qalgorithms.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qiterator.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qiterator.h:
 
 /usr/include/c++/5/iterator:
 
@@ -1055,23 +1055,23 @@ qt/addressbookpage.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearraylist.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qbytearraylist.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qstringlist.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qstringlist.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qregexp.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qregexp.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qstringmatcher.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qstringmatcher.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qscopedpointer.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qscopedpointer.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qmetatype.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qmetatype.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qvarlengtharray.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qvarlengtharray.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qcontainerfwd.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qcontainerfwd.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qisenum.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qisenum.h:
 
 /usr/include/c++/5/vector:
 
@@ -1091,189 +1091,189 @@ qt/addressbookpage.h:
 
 /usr/include/c++/5/bits/stl_multimap.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qobject_impl.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qobject_impl.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qmargins.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qmargins.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qpaintdevice.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qpaintdevice.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qrect.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qrect.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qsize.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsize.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qpoint.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qpoint.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qpalette.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qpalette.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qcolor.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qcolor.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qrgb.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qrgb.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qbrush.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qbrush.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qpair.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qpair.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qvector.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qvector.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qmatrix.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qmatrix.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qpolygon.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qpolygon.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qregion.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qregion.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qdatastream.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qdatastream.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qiodevice.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qiodevice.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qline.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qline.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qtransform.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qtransform.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qpainterpath.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qpainterpath.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qimage.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qimage.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qpixelformat.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qpixelformat.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qpixmap.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qpixmap.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qsharedpointer.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsharedpointer.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qshareddata.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qshareddata.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qhash.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qhash.h:
 
 /usr/include/c++/5/numeric:
 
 /usr/include/c++/5/bits/stl_numeric.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qsharedpointer_impl.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsharedpointer_impl.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qfont.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qfont.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qfontmetrics.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qfontmetrics.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qfontinfo.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qfontinfo.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qsizepolicy.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qsizepolicy.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qcursor.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qcursor.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qkeysequence.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qkeysequence.h:
 
 qt/forms/ui_addressbookpage.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/QVariant:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/QVariant:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qvariant.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qvariant.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qmap.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qmap.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QAction:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QAction:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qaction.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qaction.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qvariant.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qvariant.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qicon.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qicon.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qactiongroup.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qactiongroup.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qaction.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qaction.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QApplication:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QApplication:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qapplication.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qapplication.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qcoreapplication.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qcoreapplication.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qcoreevent.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qcoreevent.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qeventloop.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qeventloop.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qguiapplication.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qguiapplication.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qinputmethod.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qinputmethod.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qlocale.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qlocale.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QButtonGroup:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QButtonGroup:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qbuttongroup.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qbuttongroup.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QHBoxLayout:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QHBoxLayout:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qboxlayout.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qboxlayout.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlayout.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlayout.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlayoutitem.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlayoutitem.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qboxlayout.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qboxlayout.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qgridlayout.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qgridlayout.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QHeaderView:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QHeaderView:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qheaderview.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qheaderview.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractitemview.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractitemview.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractscrollarea.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractscrollarea.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qframe.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qframe.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qabstractitemmodel.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qabstractitemmodel.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qitemselectionmodel.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qitemselectionmodel.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qset.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qset.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractitemdelegate.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractitemdelegate.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qstyleoption.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qstyleoption.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractspinbox.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractspinbox.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtGui/qvalidator.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtGui/qvalidator.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qregularexpression.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qregularexpression.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qslider.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qslider.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractslider.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractslider.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qstyle.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qstyle.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qtabbar.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qtabbar.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qtabwidget.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qtabwidget.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qrubberband.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qrubberband.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QLabel:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QLabel:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlabel.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlabel.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QPushButton:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QPushButton:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qpushbutton.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qpushbutton.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractbutton.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qabstractbutton.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QSpacerItem:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QSpacerItem:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlayoutitem.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qlayoutitem.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QTableView:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QTableView:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qtableview.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qtableview.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QVBoxLayout:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QVBoxLayout:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/QWidget:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QWidget:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qwidget.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qwidget.h:
 
 qt/addresstablemodel.h:
 
@@ -1363,7 +1363,7 @@ qt/guiutil.h:
 
 /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qmessagebox.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtWidgets/qdialog.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qdialog.h:
 
 /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/QProgressBar:
 
@@ -1377,21 +1377,21 @@ qt/guiutil.h:
 
 /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets/qtableview.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/filesystem.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/filesystem.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/filesystem/config.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/filesystem/config.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/user.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/user.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/select_compiler_config.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/select_compiler_config.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/compiler/gcc.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/compiler/gcc.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/select_stdlib_config.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/select_stdlib_config.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/stdlib/libstdcpp3.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/stdlib/libstdcpp3.hpp:
 
 /usr/include/unistd.h:
 
@@ -1405,283 +1405,283 @@ qt/guiutil.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/select_platform_config.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/select_platform_config.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/platform/linux.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/platform/linux.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/posix_features.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/posix_features.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/suffix.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/suffix.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/system/api_config.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/system/api_config.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/detail/workaround.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/detail/workaround.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/auto_link.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/auto_link.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/filesystem/path.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/filesystem/path.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/filesystem/path_traits.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/filesystem/path_traits.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/utility/enable_if.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/utility/enable_if.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/core/enable_if.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/core/enable_if.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_array.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_array.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/config.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/config.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/bool_trait_def.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/bool_trait_def.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/template_arity_spec.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/template_arity_spec.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/int.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/int.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/int_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/int_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/adl_barrier.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/adl_barrier.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/adl.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/adl.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/msvc.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/msvc.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/intel.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/intel.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/gcc.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/gcc.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/workaround.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/workaround.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/nttp_decl.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/nttp_decl.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/nttp.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/nttp.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/integral_wrapper.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/integral_wrapper.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/integral_c_tag.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/integral_c_tag.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/static_constant.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/static_constant.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/static_cast.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/static_cast.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/cat.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/cat.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/config/config.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/config/config.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/template_arity_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/template_arity_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/params.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/params.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/preprocessor.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/preprocessor.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/comma_if.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/comma_if.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/punctuation/comma_if.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/punctuation/comma_if.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/if.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/if.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/iif.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/iif.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/bool.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/bool.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/empty.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/empty.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/punctuation/comma.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/punctuation/comma.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repeat.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repeat.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repetition/repeat.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repetition/repeat.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/debug/error.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/debug/error.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/detail/auto_rec.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/detail/auto_rec.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/eat.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/eat.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/inc.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/inc.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/inc.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/inc.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/lambda.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/lambda.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/ttp.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/ttp.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/ctps.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/ctps.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/overload_resolution.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/overload_resolution.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/integral_constant.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/integral_constant.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/bool.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/bool.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/bool_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/bool_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/integral_c.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/integral_c.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/integral_c_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/integral_c_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/lambda_support.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/lambda_support.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/bool_trait_undef.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/bool_trait_undef.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/decay.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/decay.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_function.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_function.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_reference.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_reference.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_lvalue_reference.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_lvalue_reference.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_rvalue_reference.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_rvalue_reference.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/ice.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/ice.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/yes_no_type.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/yes_no_type.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_or.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_or.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_and.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_and.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_not.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_not.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_eq.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/ice_eq.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/false_result.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/false_result.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/is_function_ptr_helper.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/is_function_ptr_helper.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_bounds.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_bounds.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/type_trait_def.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/type_trait_def.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/type_trait_undef.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/type_trait_undef.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_pointer.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_pointer.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_reference.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_reference.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/eval_if.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/eval_if.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/if.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/if.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/value_wknd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/value_wknd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/integral.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/integral.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/eti.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/eti.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na_spec.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na_spec.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/lambda_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/lambda_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/void_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/void_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/lambda_arity_param.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/lambda_arity_param.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/arity.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/arity.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/dtp.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/dtp.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/enum.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/enum.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/limits/arity.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/limits/arity.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/and.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/and.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/bitand.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/bitand.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/identity.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/identity.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/identity.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/identity.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/empty.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/empty.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/add.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/add.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/dec.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/dec.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/while.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/while.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/fold_left.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/fold_left.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/detail/fold_left.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/detail/fold_left.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/expr_iif.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/expr_iif.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/adt.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/adt.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/detail/is_binary.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/detail/is_binary.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/detail/check.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/detail/check.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/compl.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/logical/compl.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/fold_right.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/fold_right.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/detail/fold_right.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/detail/fold_right.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/reverse.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/list/reverse.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/detail/while.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/control/detail/while.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/elem.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/elem.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/expand.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/expand.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/overload.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/facilities/overload.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/variadic/size.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/variadic/size.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/rem.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/rem.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/variadic/elem.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/variadic/elem.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/sub.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/arithmetic/sub.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/identity.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/identity.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/system/error_code.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/system/error_code.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/system/config.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/system/config.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/platform.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/platform.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/mingw.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/mingw.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/version_number.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/version_number.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/make.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/make.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/test.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/test.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_desktop.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_desktop.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/windows.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/windows.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_store.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_store.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_phone.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_phone.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_runtime.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/platform/windows_runtime.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/cstdint.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/cstdint.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/assert.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/assert.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/noncopyable.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/noncopyable.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/core/noncopyable.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/core/noncopyable.hpp:
 
 /usr/include/c++/5/functional:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/cerrno.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/cerrno.hpp:
 
 /usr/include/c++/5/cerrno:
 
@@ -1697,9 +1697,9 @@ qt/guiutil.h:
 
 /usr/include/asm-generic/errno-base.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/abi_prefix.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/abi_prefix.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/abi_suffix.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/abi_suffix.hpp:
 
 /usr/include/c++/5/locale:
 
@@ -1717,219 +1717,219 @@ qt/guiutil.h:
 
 /usr/include/c++/5/bits/locale_facets_nonio.tcc:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/system/system_error.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/system/system_error.hpp:
 
 /usr/include/c++/5/cassert:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/iterator_facade.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/iterator_facade.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/interoperable.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/interoperable.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/or.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/or.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/use_preprocessed.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/use_preprocessed.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/nested_type_wknd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/nested_type_wknd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/include_preprocessed.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/include_preprocessed.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/compiler.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/compiler.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/stringize.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/stringize.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_convertible.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_convertible.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/intrinsics.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/intrinsics.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_same.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_same.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_volatile.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_volatile.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/cv_traits_impl.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/cv_traits_impl.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_arithmetic.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_arithmetic.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_integral.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_integral.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_float.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_float.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_void.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_void.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_abstract.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_abstract.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_lvalue_reference.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_lvalue_reference.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_reference.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_reference.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_rvalue_reference.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_rvalue_reference.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/config_def.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/config_def.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/config_undef.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/config_undef.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/iterator_traits.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/iterator_traits.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/detail/iterator.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/detail/iterator.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/iterator_categories.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/iterator_categories.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/placeholders.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/placeholders.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/arg.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/arg.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/arg_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/arg_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na_assert.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/na_assert.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/assert.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/assert.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/not.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/not.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/yes_no.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/yes_no.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/arrays.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/arrays.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/gpu.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/gpu.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/pp_counter.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/pp_counter.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/arity_spec.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/arity_spec.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/arg_typedef.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/arg_typedef.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/static_assert.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/static_assert.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/facade_iterator_category.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/facade_iterator_category.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/and.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/and.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_const.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_const.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/detail/indirect_traits.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/detail/indirect_traits.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_pointer.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_pointer.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_member_pointer.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_member_pointer.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_member_function_pointer.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_member_function_pointer.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_cv.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_cv.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_class.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_class.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_pointer.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_pointer.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/enable_if.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/iterator/detail/enable_if.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/utility/addressof.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/utility/addressof.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/core/addressof.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/core/addressof.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_const.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/add_const.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_const.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/remove_const.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_pod.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_pod.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_scalar.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_scalar.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_enum.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/type_traits/is_enum.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/always.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/always.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/default_params.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessor/default_params.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/apply.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/apply.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/apply_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/apply_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/apply_wrap.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/apply_wrap.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/has_apply.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/has_apply.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/has_xxx.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/has_xxx.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/type_wrapper.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/type_wrapper.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/has_xxx.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/has_xxx.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/msvc_typename.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/msvc_typename.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/array/elem.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/array/elem.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/array/data.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/array/data.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/array/size.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/array/size.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repetition/enum_params.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repetition/enum_params.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/has_apply.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/has_apply.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/msvc_never_true.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/msvc_never_true.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/lambda.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/lambda.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/bind.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/bind.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/bind_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/bind_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/bind.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/bind.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/next.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/next.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/next_prior.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/next_prior.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/common_name_wknd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/common_name_wknd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/protect.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/protect.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/full_lambda.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/full_lambda.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/quote.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/quote.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/void.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/void.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/has_type.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/has_type.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/bcc.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/config/bcc.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/template_arity.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/template_arity.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/shared_ptr.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/shared_ptr.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/shared_ptr.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/shared_ptr.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/config/no_tr1/memory.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/config/no_tr1/memory.hpp:
 
 /usr/include/c++/5/memory:
 
@@ -1937,31 +1937,31 @@ qt/guiutil.h:
 
 /usr/include/c++/5/backward/auto_ptr.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/checked_delete.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/checked_delete.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/core/checked_delete.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/core/checked_delete.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/throw_exception.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/throw_exception.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/exception/exception.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/exception/exception.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/current_function.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/current_function.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/shared_count.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/shared_count.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/bad_weak_ptr.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/bad_weak_ptr.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_counted_base.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_counted_base.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_has_sync.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_has_sync.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/detail/sp_typeinfo.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/detail/sp_typeinfo.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/core/typeinfo.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/core/typeinfo.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/core/demangle.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/core/demangle.hpp:
 
 /usr/include/c++/5/cxxabi.h:
 
@@ -1969,261 +1969,261 @@ qt/guiutil.h:
 
 /usr/include/c++/5/typeinfo:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_convertible.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_convertible.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/spinlock_pool.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/spinlock_pool.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/spinlock.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/spinlock.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/spinlock_sync.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/spinlock_sync.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/yield_k.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/yield_k.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/language.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/language.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/language/stdc.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/language/stdc.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/language/stdcpp.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/language/stdcpp.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/language/objc.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/language/objc.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/alpha.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/alpha.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/arm.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/arm.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/blackfin.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/blackfin.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/convex.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/convex.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/ia64.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/ia64.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/m68k.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/m68k.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/mips.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/mips.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/parisc.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/parisc.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/ppc.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/ppc.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/pyramid.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/pyramid.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/rs6k.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/rs6k.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/sparc.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/sparc.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/superh.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/superh.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/sys370.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/sys370.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/sys390.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/sys390.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/x86.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/x86.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/x86/32.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/x86/32.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/x86/64.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/x86/64.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/z.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/architecture/z.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/borland.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/borland.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/clang.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/clang.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/comeau.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/comeau.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/compaq.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/compaq.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/diab.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/diab.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/digitalmars.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/digitalmars.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/dignus.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/dignus.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/edg.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/edg.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/ekopath.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/ekopath.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/gcc_xml.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/gcc_xml.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/gcc.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/gcc.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/comp_detected.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/comp_detected.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/greenhills.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/greenhills.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/hp_acc.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/hp_acc.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/iar.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/iar.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/ibm.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/ibm.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/intel.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/intel.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/kai.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/kai.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/llvm.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/llvm.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/metaware.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/metaware.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/metrowerks.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/metrowerks.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/microtec.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/microtec.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/mpw.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/mpw.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/palm.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/palm.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/pgi.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/pgi.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/sgi_mipspro.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/sgi_mipspro.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/sunpro.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/sunpro.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/tendra.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/tendra.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/visualc.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/visualc.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/watcom.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/compiler/watcom.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/_prefix.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/_prefix.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/_cassert.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/_cassert.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/gnu.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/gnu.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/uc.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/uc.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/vms.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/vms.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/zos.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/c/zos.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/_prefix.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/_prefix.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/_exception.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/_exception.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/cxx.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/cxx.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/dinkumware.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/dinkumware.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/libcomo.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/libcomo.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/modena.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/modena.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/msl.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/msl.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/roguewave.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/roguewave.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/sgi.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/sgi.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/stdcpp3.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/stdcpp3.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/stlport.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/stlport.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/vacpp.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/library/std/vacpp.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/aix.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/aix.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/amigaos.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/amigaos.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/android.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/android.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/beos.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/beos.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/macos.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/macos.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/ios.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/ios.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/bsdi.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/bsdi.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/dragonfly.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/dragonfly.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/free.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/free.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/open.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/open.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/net.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/bsd/net.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/cygwin.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/cygwin.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/haiku.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/haiku.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/hpux.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/hpux.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/irix.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/irix.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/linux.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/linux.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/os_detected.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/detail/os_detected.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/os400.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/os400.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/qnxnto.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/qnxnto.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/solaris.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/solaris.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/unix.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/unix.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/os/vms.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/os/vms.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/other.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/other.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/other/endian.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/other/endian.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/predef/version.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/predef/version.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/operator_bool.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/smart_ptr/detail/operator_bool.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/io/detail/quoted_manip.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/io/detail/quoted_manip.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/io/ios_state.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/io/ios_state.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/io_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/io_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/functional/hash_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/functional/hash_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/functional/hash/hash_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/functional/hash/hash_fwd.hpp:
 
 /usr/include/c++/5/cstring:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/filesystem/operations.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/filesystem/operations.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/detail/scoped_enum_emulation.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/detail/scoped_enum_emulation.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/core/scoped_enum.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/core/scoped_enum.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/detail/bitmask.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/detail/bitmask.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/range/mutable_iterator.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/range/mutable_iterator.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/range/config.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/range/config.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/range/range_fwd.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/range/range_fwd.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/range/detail/extract_optional_type.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/range/detail/extract_optional_type.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/range/detail/msvc_has_iterator_workaround.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/range/detail/msvc_has_iterator_workaround.hpp:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/range/const_iterator.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/range/const_iterator.hpp:
 
 /usr/include/c++/5/stack:
 
@@ -2235,7 +2235,7 @@ qt/guiutil.h:
 
 /usr/include/c++/5/bits/stl_stack.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/boost/filesystem/convenience.hpp:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/boost/filesystem/convenience.hpp:
 
 qt/platformstyle.h:
 
@@ -2251,4 +2251,4 @@ qt/platformstyle.h:
 
 /home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore/qsortfilterproxymodel.h:
 
-/home/kzv/e51/depends/x86_64-pc-linux-gnu/include/QtCore/qabstractproxymodel.h:
+/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/QtCore/qabstractproxymodel.h:
