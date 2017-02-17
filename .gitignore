@@ -6,3 +6,5 @@
 *.cache
 *.status
 *.Po
+src/test/*
+src/qt/test/*
