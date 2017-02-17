@@ -3432,6 +3432,11 @@ static bool AcceptBlock(const CBlock& block, CValidationState& state, const CCha
     if (!AcceptBlockHeader(block, state, chainparams, &pindex))
         return false;
 
+    //KZV do not process empty blocks
+   // if (block.vtx.size() == 1 && pindex->nHeight > 6000)
+   //     return false;
+    ///////////////////////////////////////
+
     // Try to process all requested blocks that we don't have, but only
     // process an unrequested block if it's new and has enough work to
     // advance our tip, and isn't too many blocks ahead.

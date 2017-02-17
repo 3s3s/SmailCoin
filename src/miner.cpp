@@ -447,6 +447,14 @@ void static BitcoinMiner(const CChainParams& chainparams)
             CBlock *pblock = &pblocktemplate->block;
             IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
+            //KZV do not mining empty blocks
+            /*if (pblock->vtx.size() == 1 && pindexPrev->nHeight > 2)
+            {
+                MilliSleep(1000);
+                continue;
+            }*/
+            ///////////////////////////////////////
+
             LogPrintf("Running SmailCoinMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
                 ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
