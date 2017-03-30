@@ -89,26 +89,26 @@ NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
 build_triplet = x86_64-pc-linux-gnu
-host_triplet = x86_64-pc-linux-gnu
+host_triplet = x86_64-w64-mingw32
 am__append_1 = -I$(srcdir)/leveldb/include \
 	-I$(srcdir)/leveldb/helpers/memenv
 am__append_2 = $(builddir)/leveldb/libleveldb.a
 am__append_3 = $(builddir)/leveldb/libmemenv.a
 am__append_4 = $(BDB_CPPFLAGS)
 am__append_5 = libbitcoin_wallet.a
-am__append_6 = libbitcoin_zmq.a
+#am__append_6 = libbitcoin_zmq.a
 bin_PROGRAMS = $(am__EXEEXT_1) $(am__EXEEXT_2) $(am__EXEEXT_3) \
 	$(am__EXEEXT_4) $(am__EXEEXT_5) $(am__EXEEXT_6)
 TESTS = $(am__EXEEXT_3) $(am__EXEEXT_6)
 am__append_7 = bitcoind
 am__append_8 = bitcoin-cli bitcoin-tx
-am__append_9 = compat/glibc_compat.cpp
-#am__append_10 = bitcoind-res.rc
-am__append_11 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+#am__append_9 = compat/glibc_compat.cpp
+am__append_10 = bitcoind-res.rc
+#am__append_11 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 am__append_12 = libbitcoin_wallet.a
-#am__append_13 = bitcoin-cli-res.rc
-#am__append_14 = bitcoin-tx-res.rc
-am__append_15 = compat/glibc_compat.cpp
+am__append_13 = bitcoin-cli-res.rc
+am__append_14 = bitcoin-tx-res.rc
+#am__append_15 = compat/glibc_compat.cpp
 am__append_16 = test/test_bitcoin
 am__append_17 = test/test_bitcoin
 am__append_18 = \
@@ -132,15 +132,15 @@ am__append_19 = \
   test/rpc_wallet_tests.cpp
 
 am__append_20 = $(LIBBITCOIN_WALLET)
-am__append_21 = $(ZMQ_LIBS)
+#am__append_21 = $(ZMQ_LIBS)
 am__append_22 = $(CLEAN_BITCOIN_TEST)
 am__append_23 = bench/bench_bitcoin
-am__append_24 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+#am__append_24 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 am__append_25 = $(LIBBITCOIN_WALLET)
 am__append_26 = $(CLEAN_BITCOIN_BENCH)
 am__append_27 = qt/bitcoin-qt
 am__append_28 = qt/libbitcoinqt.a
-#am__append_29 = qt/winshutdownmonitor.cpp
+am__append_29 = qt/winshutdownmonitor.cpp
 am__append_30 = \
   qt/addressbookpage.cpp \
   qt/addresstablemodel.cpp \
@@ -170,9 +170,9 @@ am__append_30 = \
   qt/walletview.cpp
 
 #am__append_31 = $(BITCOIN_MM)
-#am__append_32 = $(BITCOIN_RC)
+am__append_32 = $(BITCOIN_RC)
 am__append_33 = $(LIBBITCOIN_WALLET)
-am__append_34 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+#am__append_34 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 am__append_35 = $(CLEAN_QT)
 am__append_36 = qt/test/test_bitcoin-qt
 am__append_37 = qt/test/test_bitcoin-qt
@@ -181,7 +181,7 @@ am__append_39 = \
   qt/test/paymentservertests.cpp
 
 am__append_40 = $(LIBBITCOIN_WALLET)
-am__append_41 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+#am__append_41 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 am__append_42 = $(CLEAN_BITCOIN_QT_TEST)
 subdir = src
 SUBDIRS =
@@ -331,7 +331,7 @@ am__libbitcoin_util_a_SOURCES_DIST = support/pagelocker.cpp \
 	zmq/zmqabstractnotifier.h zmq/zmqconfig.h \
 	zmq/zmqnotificationinterface.h zmq/zmqpublishnotifier.h \
 	compat/glibc_compat.cpp
-am__objects_2 = compat/libbitcoin_util_a-glibc_compat.$(OBJEXT)
+#am__objects_2 = compat/libbitcoin_util_a-glibc_compat.$(OBJEXT)
 am_libbitcoin_util_a_OBJECTS =  \
 	support/libbitcoin_util_a-pagelocker.$(OBJEXT) \
 	libbitcoin_util_a-chainparamsbase.$(OBJEXT) \
@@ -368,9 +368,9 @@ libbitcoin_zmq_a_AR = $(AR) $(ARFLAGS)
 libbitcoin_zmq_a_LIBADD =
 am__libbitcoin_zmq_a_SOURCES_DIST = zmq/zmqabstractnotifier.cpp \
 	zmq/zmqnotificationinterface.cpp zmq/zmqpublishnotifier.cpp
-am_libbitcoin_zmq_a_OBJECTS = zmq/libbitcoin_zmq_a-zmqabstractnotifier.$(OBJEXT) \
-	zmq/libbitcoin_zmq_a-zmqnotificationinterface.$(OBJEXT) \
-	zmq/libbitcoin_zmq_a-zmqpublishnotifier.$(OBJEXT)
+#am_libbitcoin_zmq_a_OBJECTS = zmq/libbitcoin_zmq_a-zmqabstractnotifier.$(OBJEXT) \
+#	zmq/libbitcoin_zmq_a-zmqnotificationinterface.$(OBJEXT) \
+#	zmq/libbitcoin_zmq_a-zmqpublishnotifier.$(OBJEXT)
 libbitcoin_zmq_a_OBJECTS = $(am_libbitcoin_zmq_a_OBJECTS)
 qt_libbitcoinqt_a_AR = $(AR) $(ARFLAGS)
 qt_libbitcoinqt_a_LIBADD =
@@ -494,7 +494,7 @@ am__qt_libbitcoinqt_a_SOURCES_DIST = qt/bantablemodel.cpp \
 	qt/res/icons/tx_output.png qt/res/icons/tx_mined.png \
 	qt/res/icons/warning.png qt/res/icons/verify.png $(wildcard \
 	qt/res/movies/spinner-*.png)
-#am__objects_3 = qt/qt_libbitcoinqt_a-winshutdownmonitor.$(OBJEXT)
+am__objects_3 = qt/qt_libbitcoinqt_a-winshutdownmonitor.$(OBJEXT)
 am__objects_4 = qt/qt_libbitcoinqt_a-addressbookpage.$(OBJEXT) \
 	qt/qt_libbitcoinqt_a-addresstablemodel.$(OBJEXT) \
 	qt/qt_libbitcoinqt_a-askpassphrasedialog.$(OBJEXT) \
@@ -642,7 +642,7 @@ am__libbitcoinconsensus_la_SOURCES_DIST = crypto/hmac_sha512.cpp \
 	pubkey.cpp script/bitcoinconsensus.cpp script/interpreter.cpp \
 	script/script.cpp uint256.cpp utilstrencodings.cpp \
 	compat/glibc_compat.cpp
-am__objects_10 = compat/libbitcoinconsensus_la-glibc_compat.lo
+#am__objects_10 = compat/libbitcoinconsensus_la-glibc_compat.lo
 am_libbitcoinconsensus_la_OBJECTS = crypto/libbitcoinconsensus_la-hmac_sha512.lo \
 	crypto/libbitcoinconsensus_la-ripemd160.lo \
 	crypto/libbitcoinconsensus_la-sha1.lo \
@@ -685,9 +685,9 @@ bench_bench_bitcoin_OBJECTS = $(am_bench_bench_bitcoin_OBJECTS)
 am__DEPENDENCIES_1 = $(am__append_2)
 am__DEPENDENCIES_2 = $(am__append_3)
 am__DEPENDENCIES_3 =
-am__DEPENDENCIES_4 =  \
-	$(LIBBITCOIN_ZMQ) \
-	$(am__DEPENDENCIES_3)
+#am__DEPENDENCIES_4 =  \
+#	$(LIBBITCOIN_ZMQ) \
+#	$(am__DEPENDENCIES_3)
 bench_bench_bitcoin_DEPENDENCIES =  \
 	$(LIBBITCOIN_SERVER) $(LIBBITCOIN_COMMON) \
 	$(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) \
@@ -702,7 +702,7 @@ bench_bench_bitcoin_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(bench_bench_bitcoin_CXXFLAGS) $(CXXFLAGS) \
 	$(bench_bench_bitcoin_LDFLAGS) $(LDFLAGS) -o $@
 am__bitcoin_cli_SOURCES_DIST = bitcoin-cli.cpp bitcoin-cli-res.rc
-#am__objects_11 = bitcoin-cli-res.$(OBJEXT)
+am__objects_11 = bitcoin-cli-res.$(OBJEXT)
 am_bitcoin_cli_OBJECTS = bitcoin_cli-bitcoin-cli.$(OBJEXT) \
 	$(am__objects_11)
 bitcoin_cli_OBJECTS = $(am_bitcoin_cli_OBJECTS)
@@ -713,7 +713,7 @@ bitcoin_cli_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CXXLD) $(bitcoin_cli_CXXFLAGS) \
 	$(CXXFLAGS) $(bitcoin_cli_LDFLAGS) $(LDFLAGS) -o $@
 am__bitcoin_tx_SOURCES_DIST = bitcoin-tx.cpp bitcoin-tx-res.rc
-#am__objects_12 = bitcoin-tx-res.$(OBJEXT)
+am__objects_12 = bitcoin-tx-res.$(OBJEXT)
 am_bitcoin_tx_OBJECTS = bitcoin_tx-bitcoin-tx.$(OBJEXT) \
 	$(am__objects_12)
 bitcoin_tx_OBJECTS = $(am_bitcoin_tx_OBJECTS)
@@ -724,11 +724,11 @@ bitcoin_tx_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CXXLD) $(bitcoin_tx_CXXFLAGS) \
 	$(CXXFLAGS) $(bitcoin_tx_LDFLAGS) $(LDFLAGS) -o $@
 am__bitcoind_SOURCES_DIST = bitcoind.cpp bitcoind-res.rc
-#am__objects_13 = bitcoind-res.$(OBJEXT)
+am__objects_13 = bitcoind-res.$(OBJEXT)
 am_bitcoind_OBJECTS = bitcoind-bitcoind.$(OBJEXT) $(am__objects_13)
 bitcoind_OBJECTS = $(am_bitcoind_OBJECTS)
-am__DEPENDENCIES_5 = $(LIBBITCOIN_ZMQ) \
-	$(am__DEPENDENCIES_3)
+#am__DEPENDENCIES_5 = $(LIBBITCOIN_ZMQ) \
+#	$(am__DEPENDENCIES_3)
 bitcoind_DEPENDENCIES = $(LIBBITCOIN_SERVER) $(LIBBITCOIN_COMMON) \
 	$(LIBUNIVALUE) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_2) $(LIBSECP256K1) \
@@ -748,15 +748,15 @@ am__objects_14 =  \
 #am__objects_15 =  \
 #	$(am__objects_14)
 am__objects_16 = qt/res/bitcoin-qt-res.$(OBJEXT)
-#am__objects_17 =  \
-#	$(am__objects_16)
+am__objects_17 =  \
+	$(am__objects_16)
 am_qt_bitcoin_qt_OBJECTS =  \
 	qt/qt_bitcoin_qt-bitcoin.$(OBJEXT) \
 	$(am__objects_15) $(am__objects_17)
 qt_bitcoin_qt_OBJECTS = $(am_qt_bitcoin_qt_OBJECTS)
-am__DEPENDENCIES_6 =  \
-	$(LIBBITCOIN_ZMQ) \
-	$(am__DEPENDENCIES_3)
+#am__DEPENDENCIES_6 =  \
+#	$(LIBBITCOIN_ZMQ) \
+#	$(am__DEPENDENCIES_3)
 qt_bitcoin_qt_DEPENDENCIES = qt/libbitcoinqt.a \
 	$(LIBBITCOIN_SERVER) $(am__append_33) \
 	$(am__DEPENDENCIES_6) $(LIBBITCOIN_CLI) \
@@ -789,9 +789,9 @@ nodist_qt_test_test_bitcoin_qt_OBJECTS =  \
 qt_test_test_bitcoin_qt_OBJECTS =  \
 	$(am_qt_test_test_bitcoin_qt_OBJECTS) \
 	$(nodist_qt_test_test_bitcoin_qt_OBJECTS)
-am__DEPENDENCIES_7 =  \
-	$(LIBBITCOIN_ZMQ) \
-	$(am__DEPENDENCIES_3)
+#am__DEPENDENCIES_7 =  \
+#	$(LIBBITCOIN_ZMQ) \
+#	$(am__DEPENDENCIES_3)
 qt_test_test_bitcoin_qt_DEPENDENCIES =  \
 	$(LIBBITCOINQT) $(LIBBITCOIN_SERVER) \
 	$(am__append_40) $(am__DEPENDENCIES_7) \
@@ -910,8 +910,8 @@ nodist_test_test_bitcoin_OBJECTS =  \
 test_test_bitcoin_OBJECTS = $(am_test_test_bitcoin_OBJECTS) \
 	$(nodist_test_test_bitcoin_OBJECTS)
 am__DEPENDENCIES_8 = libbitcoinconsensus.la
-am__DEPENDENCIES_9 =  \
-	$(am__DEPENDENCIES_3)
+#am__DEPENDENCIES_9 =  \
+#	$(am__DEPENDENCIES_3)
 test_test_bitcoin_DEPENDENCIES =  \
 	$(LIBBITCOIN_SERVER) $(LIBBITCOIN_CLI) \
 	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
@@ -1222,7 +1222,7 @@ am__set_TESTS_bases = \
   bases=`echo $$bases`
 RECHECK_LOGS = $(TEST_LOGS)
 TEST_SUITE_LOG = test-suite.log
-TEST_EXTENSIONS =  .test
+TEST_EXTENSIONS = .exe .test
 LOG_DRIVER = $(SHELL) $(top_srcdir)/build-aux/test-driver
 LOG_COMPILE = $(LOG_COMPILER) $(AM_LOG_FLAGS) $(LOG_FLAGS)
 am__set_b = \
@@ -1236,7 +1236,7 @@ am__set_b = \
       b='$*';; \
   esac
 am__test_logs1 = $(TESTS:=.log)
-am__test_logs2 = $(am__test_logs1:.log=.log)
+am__test_logs2 = $(am__test_logs1:.exe.log=.log)
 TEST_LOGS = $(am__test_logs2:.test.log=.log)
 TEST_LOG_DRIVER = $(SHELL) $(top_srcdir)/build-aux/test-driver
 TEST_LOG_COMPILE = $(TEST_LOG_COMPILER) $(AM_TEST_LOG_FLAGS) \
@@ -1276,25 +1276,25 @@ am__relativize = \
 ACLOCAL = ${SHELL} /home/kzv/SmailCoin/build-aux/missing aclocal-1.15
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
-AR = ar
+AR = /usr/bin/x86_64-w64-mingw32-ar
 AUTOCONF = ${SHELL} /home/kzv/SmailCoin/build-aux/missing autoconf
 AUTOHEADER = ${SHELL} /home/kzv/SmailCoin/build-aux/missing autoheader
 AUTOMAKE = ${SHELL} /home/kzv/SmailCoin/build-aux/missing automake-1.15
 AWK = mawk
 BDB_CPPFLAGS = 
 BDB_LIBS = -ldb_cxx-4.8
-BOOST_CHRONO_LIB = -lboost_chrono-mt
-BOOST_CPPFLAGS = -pthread -I/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include
-BOOST_FILESYSTEM_LIB = -lboost_filesystem-mt
-BOOST_LDFLAGS = -L/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/lib
-BOOST_LIBS = -L/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/lib -lboost_system-mt -lboost_filesystem-mt -lboost_program_options-mt -lboost_thread-mt -lboost_chrono-mt
-BOOST_PROGRAM_OPTIONS_LIB = -lboost_program_options-mt
-BOOST_SYSTEM_LIB = -lboost_system-mt
-BOOST_THREAD_LIB = -lboost_thread-mt
-BOOST_UNIT_TEST_FRAMEWORK_LIB = -lboost_unit_test_framework-mt
+BOOST_CHRONO_LIB = -lboost_chrono-mt-s
+BOOST_CPPFLAGS = -mthreads -I/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/include
+BOOST_FILESYSTEM_LIB = -lboost_filesystem-mt-s
+BOOST_LDFLAGS = -L/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/lib
+BOOST_LIBS = -L/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/lib -lboost_system-mt-s -lboost_filesystem-mt-s -lboost_program_options-mt-s -lboost_thread_win32-mt-s -lboost_chrono-mt-s
+BOOST_PROGRAM_OPTIONS_LIB = -lboost_program_options-mt-s
+BOOST_SYSTEM_LIB = -lboost_system-mt-s
+BOOST_THREAD_LIB = -lboost_thread_win32-mt-s
+BOOST_UNIT_TEST_FRAMEWORK_LIB = -lboost_unit_test_framework-mt-s
 BREW = 
-CC = /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/native/bin/ccache gcc -m64
-CCACHE = /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/native/bin/ccache
+CC = /home/kzv/SmailCoin/depends/x86_64-w64-mingw32/native/bin/ccache x86_64-w64-mingw32-gcc
+CCACHE = /home/kzv/SmailCoin/depends/x86_64-w64-mingw32/native/bin/ccache
 CCDEPMODE = depmode=gcc3
 CFLAGS = -pipe -O2 
 CLIENT_VERSION_BUILD = 0
@@ -1304,40 +1304,40 @@ CLIENT_VERSION_MINOR = 12
 CLIENT_VERSION_REVISION = 1
 COMPARISON_TOOL_REORG_TESTS = 0
 COPYRIGHT_YEAR = 2016
-CPP = gcc -m64 -E
-CPPFILT = /usr/bin/c++filt
-CPPFLAGS = -I/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/include/  -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS
-CRYPTO_CFLAGS = -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include
-CRYPTO_LIBS = -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -lcrypto -ldl
-CXX = /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/native/bin/ccache g++ -m64
-CXXCPP = g++ -m64 -E
+CPP = x86_64-w64-mingw32-gcc -E
+CPPFILT = /usr/bin/x86_64-w64-mingw32-c++filt
+CPPFLAGS = -I/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/include/  -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64
+CRYPTO_CFLAGS = 
+CRYPTO_LIBS = -lcrypto
+CXX = /home/kzv/SmailCoin/depends/x86_64-w64-mingw32/native/bin/ccache x86_64-w64-mingw32-g++
+CXXCPP = x86_64-w64-mingw32-g++ -E
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -pipe -O2 
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
-DLLTOOL = false
+DLLTOOL = x86_64-w64-mingw32-dlltool
 DSYMUTIL = 
 DUMPBIN = 
 ECHO_C = 
 ECHO_N = -n
 ECHO_T = 
 EGREP = /bin/grep -E
-EVENT_CFLAGS = -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include
-EVENT_LIBS = -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -levent
-EVENT_PTHREADS_CFLAGS = -pthread -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include
-EVENT_PTHREADS_LIBS = -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -levent_pthreads -levent
-EXEEXT = 
+EVENT_CFLAGS = 
+EVENT_LIBS = -levent
+EVENT_PTHREADS_CFLAGS = 
+EVENT_PTHREADS_LIBS = 
+EXEEXT = .exe
 EXTENDED_RPC_TESTS = 
 FGREP = /bin/grep -F
-GCOV = /usr/bin/gcov
+GCOV = /usr/bin/x86_64-w64-mingw32-gcov
 GENHTML = 
 GENISOIMAGE = 
 GIT = /usr/bin/git
 GREP = /bin/grep
 HARDENED_CPPFLAGS =  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2
 HARDENED_CXXFLAGS =  -Wstack-protector -fstack-protector-all
-HARDENED_LDFLAGS =  -Wl,-z,relro -Wl,-z,now -pie
+HARDENED_LDFLAGS =  -Wl,--dynamicbase -Wl,--nxcompat
 HEXDUMP = /usr/bin/hexdump
 INSTALL = /usr/bin/install -c
 INSTALLNAMETOOL = 
@@ -1346,39 +1346,39 @@ INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 JAVA = 
-JAVA_COMPARISON_TOOL = /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/native/share/BitcoindComparisonTool_jar/BitcoindComparisonTool.jar
+JAVA_COMPARISON_TOOL = /home/kzv/SmailCoin/depends/x86_64-w64-mingw32/native/share/BitcoindComparisonTool_jar/BitcoindComparisonTool.jar
 LCOV = 
-LD = /usr/bin/ld -m elf_x86_64
-LDFLAGS = -L/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/lib -static-libstdc++
+LD = /usr/bin/x86_64-w64-mingw32-ld
+LDFLAGS = -L/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/lib 
 LEVELDB_CPPFLAGS =  $(am__append_1)
-LEVELDB_TARGET_FLAGS = 
+LEVELDB_TARGET_FLAGS = TARGET_OS=OS_WINDOWS_CROSSCOMPILE
 LIBLEVELDB =  $(am__append_2)
 LIBMEMENV =  $(am__append_3)
 LIBOBJS = 
-LIBS = -lanl -lrt 
+LIBS = -lssp -lcrypt32 -liphlpapi -lshlwapi -lmswsock -lws2_32 -ladvapi32 -lrpcrt4 -luuid -loleaut32 -lole32 -lcomctl32 -lshell32 -lwinmm -lwinspool -lcomdlg32 -lgdi32 -luser32 -lkernel32 -lmingwthrd 
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
-LIBTOOL_APP_LDFLAGS = 
+LIBTOOL_APP_LDFLAGS =  -all-static
 LIPO = 
 LN_S = ln -s
-LRELEASE = /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/native/bin/lrelease
+LRELEASE = /home/kzv/SmailCoin/depends/x86_64-w64-mingw32/native/bin/lrelease
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
 LUPDATE = 
 MAINT = 
 MAKEINFO = ${SHELL} /home/kzv/SmailCoin/build-aux/missing makeinfo
-MAKENSIS = 
+MAKENSIS = none
 MANIFEST_TOOL = :
-MINIUPNPC_CPPFLAGS = 
+MINIUPNPC_CPPFLAGS = -DSTATICLIB -DMINIUPNP_STATICLIB
 MINIUPNPC_LIBS = -lminiupnpc
 MKDIR_P = /bin/mkdir -p
-MOC = /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/native/bin/moc
+MOC = /home/kzv/SmailCoin/depends/x86_64-w64-mingw32/native/bin/moc
 MOC_DEFS = -DHAVE_CONFIG_H -I$(srcdir)
-NM = nm
+NM = x86_64-w64-mingw32-nm
 NMEDIT = 
-OBJCXX = g++ -m64
+OBJCXX = x86_64-w64-mingw32-g++
 OBJCXXDEPMODE = depmode=gcc3
 OBJCXXFLAGS = 
-OBJDUMP = objdump
+OBJDUMP = x86_64-w64-mingw32-objdump
 OBJEXT = o
 OTOOL = 
 OTOOL64 = 
@@ -1390,62 +1390,62 @@ PACKAGE_TARNAME = bitcoin
 PACKAGE_URL = 
 PACKAGE_VERSION = 0.12.1
 PATH_SEPARATOR = :
-PIC_FLAGS = -fPIC
-PIE_FLAGS = -fPIE
+PIC_FLAGS = 
+PIE_FLAGS = 
 PKG_CONFIG = /usr/bin/pkg-config --static
-PKG_CONFIG_LIBDIR = /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/lib/pkgconfig
-PKG_CONFIG_PATH = /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/share/pkgconfig
+PKG_CONFIG_LIBDIR = /home/kzv/SmailCoin/depends/x86_64-w64-mingw32/lib/pkgconfig
+PKG_CONFIG_PATH = /home/kzv/SmailCoin/depends/x86_64-w64-mingw32/share/pkgconfig
 PORT = 
-PROTOBUF_CFLAGS = -pthread -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include
-PROTOBUF_LIBS = -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -lprotobuf -pthread -lpthread -lz
-PROTOC = /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/native/bin/protoc
-PTHREAD_CC = gcc -m64
+PROTOBUF_CFLAGS = 
+PROTOBUF_LIBS = -lprotobuf
+PROTOC = /home/kzv/SmailCoin/depends/x86_64-w64-mingw32/native/bin/protoc
+PTHREAD_CC = x86_64-w64-mingw32-gcc
 PTHREAD_CFLAGS = -pthread
 PTHREAD_LIBS = 
 PYTHON = /usr/bin/python
-QR_CFLAGS = -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include
-QR_LIBS = -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -lqrencode -lpthread
-QTPLATFORM_CFLAGS = -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtPlatformSupport -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtGui -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore
-QTPLATFORM_LIBS = -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -lQt5PlatformSupport -lfontconfig -lfreetype -lQt5Gui -lqtharfbuzzng -lQt5DBus -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lQt5Gui -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lqtharfbuzzng -lQt5Core -lpthread -lqtpcre -lm -ldl -lrt
+QR_CFLAGS = 
+QR_LIBS = -lqrencode
+QTPLATFORM_CFLAGS = 
+QTPLATFORM_LIBS = 
 QTPRINT_CFLAGS = 
 QTPRINT_LIBS = 
-QTXCBQPA_CFLAGS = -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtXcbQpa -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtGui -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore
-QTXCBQPA_LIBS = -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -L//home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -L/home/kzv/ppcoin/depends/work/build/x86_64-pc-linux-gnu/qt/5.5.0-007aae945e6/qtbase/src/plugins/platforms/xcb/xcb-static -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -lQt5XcbQpa -lX11 -lX11-xcb -lxcb -lxcb-static -lQt5PlatformSupport -lfontconfig -lfreetype -lQt5DBus -lQt5Gui -lqtharfbuzzng -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lQt5Gui -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lqtharfbuzzng -lQt5Core -lpthread -lqtpcre -lm -ldl -lrt
-QT_CFLAGS = -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtNetwork -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtGui -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore
-QT_DBUS_CFLAGS = -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtDBus -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore
-QT_DBUS_INCLUDES = -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtDBus -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore
-QT_DBUS_LIBS = -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -lQt5DBus -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lQt5Core -lpthread -lqtpcre -lm -ldl -lrt
-QT_INCLUDES = -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtNetwork -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtWidgets -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtGui -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore
-QT_LDFLAGS = 
-QT_LIBS = -lqxcb -lxcb-static -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -L//home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -L/home/kzv/ppcoin/depends/work/build/x86_64-pc-linux-gnu/qt/5.5.0-007aae945e6/qtbase/src/plugins/platforms/xcb/xcb-static -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -lQt5XcbQpa -lX11 -lX11-xcb -lxcb -lxcb-static -lQt5PlatformSupport -lfontconfig -lfreetype -lQt5DBus -lQt5Gui -lqtharfbuzzng -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lQt5Gui -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lqtharfbuzzng -lQt5Core -lpthread -lqtpcre -lm -ldl -lrt -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -lX11-xcb -lX11 -lpthread -lxcb -lXau -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -lQt5PlatformSupport -lfontconfig -lfreetype -lQt5Gui -lqtharfbuzzng -lQt5DBus -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lQt5Gui -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lqtharfbuzzng -lQt5Core -lpthread -lqtpcre -lm -ldl -lrt -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -lQt5Network -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lssl -lcrypto -lQt5Widgets -lQt5Gui -lqtharfbuzzng -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lQt5Gui -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lqtharfbuzzng -lQt5Core -lpthread -lqtpcre -lm -ldl -lrt -L/home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/plugins/platforms
-QT_PIE_FLAGS = -fPIE
+QTXCBQPA_CFLAGS = 
+QTXCBQPA_LIBS = 
+QT_CFLAGS = 
+QT_DBUS_CFLAGS = 
+QT_DBUS_INCLUDES = 
+QT_DBUS_LIBS = -lQt5DBus -L/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/lib
+QT_INCLUDES = -I/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/include -I/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/include/QtCore -I/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/include/QtGui -I/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/include/QtWidgets -I/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/include/QtNetwork -I/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/include/QtTest -I/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/include/QtDBus
+QT_LDFLAGS =  -mwindows
+QT_LIBS = -lqwindows -lQt5Widgets -lQt5Network -lQt5Gui     -lQt5Core    -lqtharfbuzzng -lqtpcre -limm32  -L/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/lib -L/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/plugins/platforms
+QT_PIE_FLAGS = 
 QT_SELECT = qt5
-QT_TEST_CFLAGS = -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtTest -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore
-QT_TEST_INCLUDES = -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtTest -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/QtCore
-QT_TEST_LIBS = -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -lQt5Test -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lQt5Core -lpthread -lqtpcre -lm -ldl -lrt
-QT_TRANSLATION_DIR = /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/translations
-RANLIB = ranlib
-RCC = /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/native/bin/rcc
-READELF = /usr/bin/readelf
+QT_TEST_CFLAGS = 
+QT_TEST_INCLUDES = 
+QT_TEST_LIBS = -lQt5Test -L/home/kzv/SmailCoin/depends/x86_64-w64-mingw32/lib
+QT_TRANSLATION_DIR = /home/kzv/SmailCoin/depends/x86_64-w64-mingw32/translations
+RANLIB = /usr/bin/x86_64-w64-mingw32-ranlib
+RCC = /home/kzv/SmailCoin/depends/x86_64-w64-mingw32/native/bin/rcc
+READELF = /usr/bin/x86_64-w64-mingw32-readelf
 RELDFLAGS = 
 SED = /bin/sed
 SET_MAKE = 
 SHELL = /bin/bash
-SSL_CFLAGS = -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include
-SSL_LIBS = -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -lssl -lcrypto -ldl
-STRIP = /usr/bin/strip
+SSL_CFLAGS = 
+SSL_LIBS = -lssl
+STRIP = /usr/bin/x86_64-w64-mingw32-strip
 TESTDEFS = 
-UIC = /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu/native/bin/uic
+UIC = /home/kzv/SmailCoin/depends/x86_64-w64-mingw32/native/bin/uic
 USE_QRCODE = 
 USE_UPNP = 
 VERSION = 0.12.1
-WINDOWS_BITS = 
-WINDRES = 
-X11XCB_CFLAGS = -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include/xcb-shared -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include
-X11XCB_LIBS = -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -lX11-xcb -lX11 -lpthread -lxcb -lXau
+WINDOWS_BITS = 64
+WINDRES = /usr/bin/x86_64-w64-mingw32-windres
+X11XCB_CFLAGS = 
+X11XCB_LIBS = 
 XGETTEXT = /usr/bin/xgettext
-ZMQ_CFLAGS = -I/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/include
-ZMQ_LIBS = -L/home/kzv/ppcoin/depends/x86_64-pc-linux-gnu/lib -lzmq
+ZMQ_CFLAGS = 
+ZMQ_LIBS = 
 abs_builddir = /home/kzv/SmailCoin/src
 abs_srcdir = /home/kzv/SmailCoin/src
 abs_top_builddir = /home/kzv/SmailCoin
@@ -1473,11 +1473,11 @@ datarootdir = ${prefix}/share
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
-host = x86_64-pc-linux-gnu
-host_alias = x86_64-pc-linux-gnu
+host = x86_64-w64-mingw32
+host_alias = x86_64-w64-mingw32
 host_cpu = x86_64
-host_os = linux-gnu
-host_vendor = pc
+host_os = mingw32
+host_vendor = w64
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
@@ -1490,7 +1490,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/kzv/SmailCoin/depends/x86_64-pc-linux-gnu
+prefix = /home/kzv/SmailCoin/depends/x86_64-w64-mingw32
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run
@@ -1666,13 +1666,13 @@ libbitcoin_server_a_SOURCES = \
   versionbits.cpp \
   $(BITCOIN_CORE_H)
 
-LIBBITCOIN_ZMQ = libbitcoin_zmq.a
-libbitcoin_zmq_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(ZMQ_CFLAGS)
-libbitcoin_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libbitcoin_zmq_a_SOURCES = \
-  zmq/zmqabstractnotifier.cpp \
-  zmq/zmqnotificationinterface.cpp \
-  zmq/zmqpublishnotifier.cpp
+#LIBBITCOIN_ZMQ = libbitcoin_zmq.a
+#libbitcoin_zmq_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(ZMQ_CFLAGS)
+#libbitcoin_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+#libbitcoin_zmq_a_SOURCES = \
+#  zmq/zmqabstractnotifier.cpp \
+#  zmq/zmqnotificationinterface.cpp \
+#  zmq/zmqpublishnotifier.cpp
 
 
 # wallet: shared between bitcoind and bitcoin-qt, but only linked
@@ -7210,13 +7210,13 @@ qt/test/test_bitcoin-qt.log: qt/test/test_bitcoin-qt$(EXEEXT)
 	--log-file $$b.log --trs-file $$b.trs \
 	$(am__common_driver_flags) $(AM_TEST_LOG_DRIVER_FLAGS) $(TEST_LOG_DRIVER_FLAGS) -- $(TEST_LOG_COMPILE) \
 	"$$tst" $(AM_TESTS_FD_REDIRECT)
-#.test$(EXEEXT).log:
-#	@p='$<'; \
-#	$(am__set_b); \
-#	$(am__check_pre) $(TEST_LOG_DRIVER) --test-name "$$f" \
-#	--log-file $$b.log --trs-file $$b.trs \
-#	$(am__common_driver_flags) $(AM_TEST_LOG_DRIVER_FLAGS) $(TEST_LOG_DRIVER_FLAGS) -- $(TEST_LOG_COMPILE) \
-#	"$$tst" $(AM_TESTS_FD_REDIRECT)
+.test$(EXEEXT).log:
+	@p='$<'; \
+	$(am__set_b); \
+	$(am__check_pre) $(TEST_LOG_DRIVER) --test-name "$$f" \
+	--log-file $$b.log --trs-file $$b.trs \
+	$(am__common_driver_flags) $(AM_TEST_LOG_DRIVER_FLAGS) $(TEST_LOG_DRIVER_FLAGS) -- $(TEST_LOG_COMPILE) \
+	"$$tst" $(AM_TESTS_FD_REDIRECT)
 
 distdir: $(DISTFILES)
 	@srcdirstrip=`echo "$(srcdir)" | sed 's/[].[^$$\\*]/\\\\&/g'`; \
@@ -7483,8 +7483,8 @@ clean-local:
 	  $(CPPFLAGS) $(AM_CXXFLAGS) $(QT_INCLUDES) $(AM_CXXFLAGS) $(PIE_FLAGS) $(CXXFLAGS) -c -o $@ $<
 
 check-symbols: $(bin_PROGRAMS)
-	@echo "Checking glibc back compat..."
-	$(AM_V_at) READELF=$(READELF) CPPFILT=$(CPPFILT) $(top_srcdir)/contrib/devtools/symbol-check.py < $(bin_PROGRAMS)
+#	@echo "Checking glibc back compat..."
+#	$(AM_V_at) READELF=$(READELF) CPPFILT=$(CPPFILT) $(top_srcdir)/contrib/devtools/symbol-check.py < $(bin_PROGRAMS)
 
 check-security: $(bin_PROGRAMS)
 	@echo "Checking binary security..."
